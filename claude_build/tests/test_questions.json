@@ -1,0 +1,26 @@
+[
+  {"id": 1, "category": "simple_fact", "question": "What is the minimum detection range for the RADAR-100 against a 1 square meter target?", "expected_answer": "45 kilometers (minimum)", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 2, "category": "simple_fact", "question": "How long does the RADAR-100 take to complete a full 360-degree azimuth scan?", "expected_answer": "No more than 4 seconds", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 3, "category": "simple_fact", "question": "What ingress protection rating must the RADAR-100 meet?", "expected_answer": "IP65", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 4, "category": "simple_fact", "question": "What data bus interface does the RADAR-100 use for command and telemetry?", "expected_answer": "MIL-STD-1553B", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 5, "category": "simple_fact", "question": "What is the required MTBF for the RADAR-100?", "expected_answer": "No less than 2,000 hours", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 6, "category": "simple_fact", "question": "Within how many milliseconds must the RADAR-100 emergency stop remove RF transmission?", "expected_answer": "200 milliseconds", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 7, "category": "simple_fact", "question": "What was the result of test TR-2240?", "expected_answer": "FAIL on requirement 3.3.2 (Mode 2 power consumption exceeded limit); corrective action tracked under ECN-0461", "source_file": "TESTREPORT-TR-2240.pdf", "source_page": 1},
+  {"id": 8, "category": "simple_fact", "question": "What replacement fan module part number should be used for the power supply module?", "expected_answer": "P/N 7741-0045", "source_file": "MAINT-MANUAL-PWR-SUPPLY.docx", "source_page": 1},
+
+  {"id": 9, "category": "table_lookup", "question": "What is the maximum mass limit for the RADAR-100 in Rev B?", "expected_answer": "35.5 kg", "source_file": "EQSPEC-RADAR-100_RevB.pdf", "source_page": 1},
+  {"id": 10, "category": "table_lookup", "question": "What is the average power consumption limit for Mode 2 (track)?", "expected_answer": "1200 W", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 11, "category": "table_lookup", "question": "What is the measured voltage transient value recorded in test TR-2231, and does it pass?", "expected_answer": "58 V, which passes the <= 60 V limit", "source_file": "TESTREPORT-TR-2231.pdf", "source_page": 1},
+  {"id": 12, "category": "table_lookup", "question": "What is the maximum operating altitude for the RADAR-100 in Rev A?", "expected_answer": "4500 meters", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+
+  {"id": 13, "category": "exact_term", "question": "What does requirement 3.2.2 in the RADAR-100 spec require, and what test method does it reference?", "expected_answer": "Random vibration testing per MIL-STD-810H Method 514.8, Category 4", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 14, "category": "exact_term", "question": "What connector part number is used for the Ethernet maintenance port (P/N 7741-0032)?", "expected_answer": "P/N 7741-0032, the 10/100BASE-T Ethernet maintenance port connector", "source_file": "EQSPEC-RADAR-100_RevA.pdf", "source_page": 1},
+  {"id": 15, "category": "exact_term", "question": "What RPM range should the fan read after replacement, per self-test SELFTEST-04?", "expected_answer": "Between 4,500 and 5,200 RPM", "source_file": "MAINT-MANUAL-PWR-SUPPLY.docx", "source_page": 1},
+
+  {"id": 16, "category": "revision_comparison", "question": "How did the operating temperature range for the RADAR-100 change between Rev A and Rev B?", "expected_answer": "Low end changed from -40°C to -45°C (high end stayed 71°C)", "source_file": "EQSPEC-RADAR-100_RevA.pdf / EQSPEC-RADAR-100_RevB.pdf", "source_page": 1},
+  {"id": 17, "category": "revision_comparison", "question": "What is the current (latest revision) maximum operating altitude for the RADAR-100, and how does it compare to the previous revision?", "expected_answer": "Rev B: 6000 m, up from 4500 m in Rev A", "source_file": "EQSPEC-RADAR-100_RevB.pdf", "source_page": 1},
+
+  {"id": 18, "category": "not_found", "question": "What is the maximum takeoff weight of the aircraft that carries the RADAR-100?", "expected_answer": "Not found in the documents.", "source_file": null, "source_page": null},
+  {"id": 19, "category": "not_found", "question": "Who is the program manager for the RADAR-100 contract?", "expected_answer": "Not found in the documents.", "source_file": null, "source_page": null},
+  {"id": 20, "category": "not_found", "question": "What is the warranty period offered on the PSU-200 power supply?", "expected_answer": "Not found in the documents.", "source_file": null, "source_page": null}
+]

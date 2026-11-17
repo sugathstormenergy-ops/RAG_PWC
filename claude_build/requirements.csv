@@ -1,0 +1,33 @@
+requirement_id,text,type,section,page,source_file
+3.1.1,"3.1.1 The unit shall detect a 1 square meter radar cross-section target at a minimum range of 45 kilometers
+under clear-weather conditions.",other,3.1.1,1,EQSPEC-RADAR-100_RevB.pdf
+3.1.2,3.1.2 The unit shall complete a full 360-degree azimuth scan in no more than 4 seconds.,other,3.1.2,1,EQSPEC-RADAR-100_RevB.pdf
+3.1.3,3.1.3 The unit shall achieve a range resolution of 15 meters or better.,other,3.1.3,1,EQSPEC-RADAR-100_RevB.pdf
+3.1.4,3.1.4 The unit shall operate continuously for 500 hours between scheduled maintenance actions.,other,3.1.4,1,EQSPEC-RADAR-100_RevB.pdf
+3.2.1,"3.2.1 The unit shall operate within an ambient temperature range of -45°C to 71°C without degradation in
+performance (reference: MIL-STD-810H, Method 501.7 and 502.7).",other,3.2.1,1,EQSPEC-RADAR-100_RevB.pdf
+3.2.2,"3.2.2 The unit shall withstand random vibration testing for a minimum duration of 2 hours per axis, per
+MIL-STD-810H Method 514.8, Category 4 (equipment category: ground, mobile).",other,3.2.2,1,EQSPEC-RADAR-100_RevB.pdf
+3.2.3,"3.2.3 The unit shall function at altitudes up to 6000 meters above mean sea level per MIL-STD-810H Method
+500.6.",other,3.2.3,1,EQSPEC-RADAR-100_RevB.pdf
+3.2.4,3.2.4 The unit shall meet IP65 ingress protection rating for dust and water resistance.,other,3.2.4,1,EQSPEC-RADAR-100_RevB.pdf
+3.3.1,"3.3.1 The unit shall operate from a nominal 28 VDC supply and shall tolerate transients up to 60 V without
+damage, per MIL-STD-461G, CS116.",other,3.3.1,1,EQSPEC-RADAR-100_RevB.pdf
+3.3.2,"3.3.2 The unit shall not exceed 850 W average power consumption in Mode 1 (search) and 1200 W in Mode 2
+(track).",other,3.3.2,1,EQSPEC-RADAR-100_RevB.pdf
+3.3.3,"3.3.3 The unit shall limit conducted emissions per MIL-STD-461G, CE102, across the 10 kHz to 10 MHz band.",other,3.3.3,1,EQSPEC-RADAR-100_RevB.pdf
+3.4.1,"3.4.1 The unit shall provide an emergency stop control that removes all RF transmission within 200
+milliseconds of activation, per MIL-STD-882E hazard mitigation guidance.",other,3.4.1,1,EQSPEC-RADAR-100_RevB.pdf
+3.4.2,"3.4.2 The unit shall not present an electric shock hazard exceeding the limits of MIL-STD-882E, Table III,
+Severity Category II.",other,3.4.2,2,EQSPEC-RADAR-100_RevB.pdf
+3.4.3,"3.4.3 The unit shall include interlocks that prevent high-voltage access panels from being opened while the
+transmitter is energized.",other,3.4.3,2,EQSPEC-RADAR-100_RevB.pdf
+3.5.1,3.5.1 The unit shall provide a MIL-STD-1553B data bus interface for command and telemetry.,other,3.5.1,2,EQSPEC-RADAR-100_RevB.pdf
+3.5.2,"3.5.2 The unit shall provide a 10/100BASE-T Ethernet maintenance port, connector type P/N 7741-0032.",other,3.5.2,2,EQSPEC-RADAR-100_RevB.pdf
+3.5.3,3.5.3 The unit shall not exceed a total mass of 35.5 kg including mounting hardware.,other,3.5.3,2,EQSPEC-RADAR-100_RevB.pdf
+3.5.4,3.5.4 The unit shall provide a visual BITE (built-in test equipment) status indicator visible from 3 meters.,other,3.5.4,2,EQSPEC-RADAR-100_RevB.pdf
+3.6.1,"3.6.1 The unit shall achieve a Mean Time Between Failures (MTBF) of no less than 2,000 hours.",other,3.6.1,2,EQSPEC-RADAR-100_RevB.pdf
+3.6.2,"3.6.2 The unit shall achieve a Mean Time To Repair (MTTR) of no more than 30 minutes for line-replaceable
+unit swaps.",other,3.6.2,2,EQSPEC-RADAR-100_RevB.pdf
+4.1,"4.1 All requirements in Section 3 shall be verified by test, analysis, inspection, or demonstration as recorded
+in the associated test report.",other,4.1,2,EQSPEC-RADAR-100_RevB.pdf

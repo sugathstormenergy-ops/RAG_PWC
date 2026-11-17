@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "simple_fact",
+    "question": "What is the minimum detection range for the RADAR-100 against a 1 square meter target?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "3.1.1 The unit shall detect a 1 square meter radar cross-section target at a minimum range of 45 kilometers\nunder clear-weather conditions. [EQSPEC-RADAR-100_RevA.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 2,
+    "category": "simple_fact",
+    "question": "How long does the RADAR-100 take to complete a full 360-degree azimuth scan?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "3.1.2 The unit shall complete a full 360-degree azimuth scan in no more than 4 seconds. [EQSPEC-RADAR-100_RevA.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 3,
+    "category": "simple_fact",
+    "question": "What ingress protection rating must the RADAR-100 meet?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "3.2.4 The unit shall meet IP65 ingress protection rating for dust and water resistance. [EQSPEC-RADAR-100_RevA.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 4,
+    "category": "simple_fact",
+    "question": "What data bus interface does the RADAR-100 use for command and telemetry?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.2",
+    "top_score": 0.0328,
+    "mock_answer": "3.5.1 The unit shall provide a MIL-STD-1553B data bus interface for command and telemetry. [EQSPEC-RADAR-100_RevA.pdf, p.2]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 5,
+    "category": "simple_fact",
+    "question": "What is the required MTBF for the RADAR-100?",
+    "top_hit": "ECN-0458.pdf p.1",
+    "top_score": 0.0315,
+    "mock_answer": "Reason for Change\nField data and qualification testing indicated the previous limit was insufficient for the extended operating\nenvelope required by the customer. [ECN-0458.pdf, p.1]",
+    "retrieval_ok": false
+  },
+  {
+    "id": 6,
+    "category": "simple_fact",
+    "question": "Within how many milliseconds must the RADAR-100 emergency stop remove RF transmission?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "3.4.1 The unit shall provide an emergency stop control that removes all RF transmission within 200\nmilliseconds of activation, per MIL-STD-882E hazard mitigation guidance. [EQSPEC-RADAR-100_RevA.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 7,
+    "category": "simple_fact",
+    "question": "What was the result of test TR-2240?",
+    "top_hit": "SYN-FAA-AC-EXCERPT.pdf p.1",
+    "top_score": 0.0325,
+    "mock_answer": "Guidance\nQualification test reports should reference the specific requirement numbers they verify, the test method used,\nand the pass/fail result for each measured parameter. [SYN-FAA-AC-EXCERPT.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 8,
+    "category": "simple_fact",
+    "question": "What replacement fan module part number should be used for the power supply module?",
+    "top_hit": "MAINT-MANUAL-PWR-SUPPLY.docx p.1",
+    "top_score": 0.0328,
+    "mock_answer": "CAUTION: Use only the specified replacement fan module P/N 7741-0045. [MAINT-MANUAL-PWR-SUPPLY.docx, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 9,
+    "category": "table_lookup",
+    "question": "What is the maximum mass limit for the RADAR-100 in Rev B?",
+    "top_hit": "ECN-0458.pdf p.1",
+    "top_score": 0.0318,
+    "mock_answer": "The\nmaximum mass limit (section 3.5.3) changed from 38 kg to 35.5 kg. [ECN-0458.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 10,
+    "category": "table_lookup",
+    "question": "What is the average power consumption limit for Mode 2 (track)?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "3.3.2 The unit shall not exceed 850 W average power consumption in Mode 1 (search) and 1200 W in Mode 2\n(track). [EQSPEC-RADAR-100_RevA.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 11,
+    "category": "table_lookup",
+    "question": "What is the measured voltage transient value recorded in test TR-2231, and does it pass?",
+    "top_hit": "SYN-FAA-AC-EXCERPT.pdf p.1",
+    "top_score": 0.0318,
+    "mock_answer": "Guidance\nQualification test reports should reference the specific requirement numbers they verify, the test method used,\nand the pass/fail result for each measured parameter. [SYN-FAA-AC-EXCERPT.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 12,
+    "category": "table_lookup",
+    "question": "What is the maximum operating altitude for the RADAR-100 in Rev A?",
+    "top_hit": "ECN-0458.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "The maximum operating altitude (section 3.2.3) changed from [ECN-0458.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 13,
+    "category": "exact_term",
+    "question": "What does requirement 3.2.2 in the RADAR-100 spec require, and what test method does it reference?",
+    "top_hit": "SYN-FAA-AC-EXCERPT.pdf p.1",
+    "top_score": 0.0328,
+    "mock_answer": "Guidance\nQualification test reports should reference the specific requirement numbers they verify, the test method used,\nand the pass/fail result for each measured parameter. [SYN-FAA-AC-EXCERPT.pdf, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 14,
+    "category": "exact_term",
+    "question": "What connector part number is used for the Ethernet maintenance port (P/N 7741-0032)?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.2",
+    "top_score": 0.0328,
+    "mock_answer": "3.5.2 The unit shall provide a 10/100BASE-T Ethernet maintenance port, connector type P/N 7741-0032. [EQSPEC-RADAR-100_RevA.pdf, p.2]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 15,
+    "category": "exact_term",
+    "question": "What RPM range should the fan read after replacement, per self-test SELFTEST-04?",
+    "top_hit": "MAINT-MANUAL-PWR-SUPPLY.docx p.1",
+    "top_score": 0.0328,
+    "mock_answer": "7.4 Verification\nAfter replacement, run self-test routine SELFTEST-04 and confirm fan speed reads between 4,500 and 5,200 RPM on the maintenance port (Ethernet, 10/100BASE-T). [MAINT-MANUAL-PWR-SUPPLY.docx, p.1]",
+    "retrieval_ok": true
+  },
+  {
+    "id": 16,
+    "category": "revision_comparison",
+    "question": "How did the operating temperature range for the RADAR-100 change between Rev A and Rev B?",
+    "top_hit": "ECN-0458.pdf p.1",
+    "top_score": 0.0318,
+    "mock_answer": "Description of Change\nThe RADAR-100 operating temperature requirement (section 3.2.1) changed from -40\u00b0C to -45\u00b0C to meet a\nnew cold-climate deployment requirement. [ECN-0458.pdf, p.1]",
+    "retrieval_ok": false
+  },
+  {
+    "id": 17,
+    "category": "revision_comparison",
+    "question": "What is the current (latest revision) maximum operating altitude for the RADAR-100, and how does it compare to the previous revision?",
+    "top_hit": "ECN-0458.pdf p.1",
+    "top_score": 0.0318,
+    "mock_answer": "The maximum operating altitude (section 3.2.3) changed from [ECN-0458.pdf, p.1]",
+    "retrieval_ok": false
+  },
+  {
+    "id": 18,
+    "category": "not_found",
+    "question": "What is the maximum takeoff weight of the aircraft that carries the RADAR-100?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0296,
+    "mock_answer": "Description of Change\nThe RADAR-100 operating temperature requirement (section 3.2.1) changed from -40\u00b0C to -45\u00b0C to meet a\nnew cold-climate deployment requirement. [ECN-0458.pdf, p.1]",
+    "retrieval_ok": false
+  },
+  {
+    "id": 19,
+    "category": "not_found",
+    "question": "Who is the program manager for the RADAR-100 contract?",
+    "top_hit": "EQSPEC-RADAR-100_RevA.pdf p.1",
+    "top_score": 0.0313,
+    "mock_answer": "CONFIDENTIAL\nSUPPLIER QUALITY ASSESSMENT \u2014 RADAR-100 PROGRAM\nDocument marking: CONFIDENTIAL \u2014 Distribution limited to program staff. [CONFIDENTIAL-SUPPLIER-ASSESSMENT.pdf, p.1]",
+    "retrieval_ok": false
+  },
+  {
+    "id": 20,
+    "category": "not_found",
+    "question": "What is the warranty period offered on the PSU-200 power supply?",
+    "top_hit": "EQSPEC-POWERSUPPLY-200.pdf p.1",
+    "top_score": 0.0323,
+    "mock_answer": "Scope\nThis specification covers the PSU-200 power supply unit providing 28 VDC regulated output to the\nRADAR-100 system. [EQSPEC-POWERSUPPLY-200.pdf, p.1]",
+    "retrieval_ok": false
+  }
+]
