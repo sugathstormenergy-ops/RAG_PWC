@@ -1,0 +1,124 @@
+﻿id,category,question,expected_answer,source_file,source_page,actual_answer,result,retrieved_sources
+1,fact,What measurement principle does the TUF-2000 ultrasonic flow meter use?,Transit-time principle to measure velocity of relatively clean liquids in full pipes.,TUF-2000-Series-User-Manual(1).pdf,3,The TUF-2000 ultrasonic flow meter utilizes the transit-time principle to measure the velocity of relatively clean liquids in full pipes. [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.9
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.35
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.24
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.34"
+2,fact,What components make up an ultrasonic heat meter according to the TUF-2000 manual?,Converter + transducer + temperature transducer.,TUF-2000-Series-User-Manual(1).pdf,3,"According to [Source 1], page 3, an ultrasonic heat meter is composed of:
+
+""Ultrasonic Heat meter = Converter + transducer + Temperature transducer""
+
+[Source 1]",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.19
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.4
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.24
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.2"
+3,fact,What is the default management IP address of the Walrus-OD gateway?,192.168.8.1,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,192.168.8.1 [Source 3],NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3"
+4,fact,What external DC supply range is specified for the Walrus-OD gateway?,DC 12 to 28 V.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,[Source 1] The external DC supply range for the Walrus-OD gateway is specified as DC12 to 28V.,NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6"
+5,fact,How long can the Walrus-OD internal backup battery support operation without external power?,Over 5 hours.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,"According to [Source 1], page 3: ""Would have an internal battery for backup which could support over 5 hours duration without external power."" [Source 1]",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.20
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1"
+6,fact,What does the blue status indicator mean on the Walrus-OD Device Info screen?,Working normally.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,4,"According to [Source 1], page 4:
+
+""The color shows blue is working normally...""
+
+[Source 1]",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.17"
+7,fact,What is the default network IP configuration protocol for the Walrus-OD gateway?,DHCP.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,7,"[Source 2] The default network protocol is DHCP. (Source 2, page 6, 3.5.2. IP Config)",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1"
+8,fact,What is the maximum number of retransmissions stated for a confirmed LoRaWAN uplink when no downlink is received?,Maximum 3 retransmissions.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"[Source 4] According to the document, if the data transmission is confirmed and no downlink is received, the meter will uplink again a maximum of 3 times.",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.11
+[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.6
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.17"
+9,table,What measuring range is listed for the TUF-2000 TM-1 medium clamp-on transducer?,DN50-700.,TUF-2000-Series-User-Manual(1).pdf,4,DN50-700 [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.4
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.5
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.34
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.25"
+10,table,What temperature range is listed for the TUF-2000 high-temperature clamp-on transducers?,-30 to 160 degrees C.,TUF-2000-Series-User-Manual(1).pdf,4,"ERROR: Traceback (most recent call last):
+  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 133, in <module>
+    answer_question("" "".join(sys.argv[1:]))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 123, in answer_question
+    print(response.message.content)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Python314\Lib\encodings\cp1252.py"", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2103' in position 9: character maps to <undefined>
+",ERROR,
+11,table,Which TUF-2000 menu displays today’s total NET flow?,M09.,TUF-2000-Series-User-Manual(1).pdf,15,M09 [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.15
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.14
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.20
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.20"
+12,table,What server address and port are listed for the Bove Alpaca-E packet forwarder?,"is0.bovetech.com, port 1780 for both uplink and downlink.",Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,6,"[Source 1]
+The server address is ""is0.bovetech.com"" and the port is 1780.",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.8
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.3"
+13,exact_term,What does AT+RDMETER=UL do?,Triggers meter reporting; the documented return is +RDMETER: UL.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,9,Not found in the documents.,NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.4
+[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.27
+[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
+[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.29"
+14,exact_term,What does TUF-2000 menu M63 configure and what is its factory default?,M63 selects communication protocol; factory default is MODBUS ASCII.,TUF-2000-Series-User-Manual(1).pdf,17,[Source 3] M63 configures the communication protocol. The factory default is 'MODBUS ASCII'.,NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.14
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.17
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.15
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.14"
+15,exact_term,What does AT+MODE=LWABP configure?,Sets the LoRaWAN module to ABP joining mode; returns +MODE: LWABP.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"[Source 1] According to page 8 of the document, AT+MODE=LWABP sets the mode in ABP (Activation By Personalization).",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
+[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.6
+[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
+[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5"
+16,revision,"According to the revision history, what changed from LoRaWAN protocol guide V1.1.1 to V1.1.2?",V1.1.2 updated the field format and the return of AT+CLASS.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,"ERROR: Traceback (most recent call last):
+  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 133, in <module>
+    answer_question("" "".join(sys.argv[1:]))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 123, in answer_question
+    print(response.message.content)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Python314\Lib\encodings\cp1252.py"", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2265' in position 260: character maps to <undefined>
+",ERROR,
+17,revision,What additions are recorded in LoRaWAN protocol guide V1.1.1 compared with V1.1.0?,V1.1.1 added the AT command RELAY and a 12logs meter payload; it also updated field format and ST bits and renamed B95 VPW to B97 VPW.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,Not found in the documents.,NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.1
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.29"
+18,not_found,What is the exact purchase price in Indian rupees of the Walrus-OD gateway in November 2026?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.5"
+19,not_found,What is the serial number of the specific TUF-2000 meter installed at my building?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.9
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.7
+[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.12
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.19"
+20,not_found,What is the personal mobile phone number of the engineer who authored the LoRaWAN protocol guide?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.1
+[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.17
+[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.12"
