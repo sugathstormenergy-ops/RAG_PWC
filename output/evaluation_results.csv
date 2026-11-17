@@ -1,124 +1,838 @@
 ﻿id,category,question,expected_answer,source_file,source_page,actual_answer,result,retrieved_sources
-1,fact,What measurement principle does the TUF-2000 ultrasonic flow meter use?,Transit-time principle to measure velocity of relatively clean liquids in full pipes.,TUF-2000-Series-User-Manual(1).pdf,3,The TUF-2000 ultrasonic flow meter utilizes the transit-time principle to measure the velocity of relatively clean liquids in full pipes. [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+1,fact,What measurement principle does the TUF-2000 ultrasonic flow meter use?,Transit-time principle to measure velocity of relatively clean liquids in full pipes.,TUF-2000-Series-User-Manual(1).pdf,3,"The TUF-2000 ultrasonic flow meter utilizes the transit-time principle to measure the velocity of relatively clean liquids in full pipes. [Source 1]
+
+This principle is used to measure the velocity of the liquid by determining the time it takes for the ultrasonic signal to travel from the transmitter to the receiver. [Source 1]
+
+Therefore, the measurement principle used by the TUF-2000 ultrasonic flow meter is the transit-time principle.",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
 [Source 2] TUF-2000-Series-User-Manual.pdf, p.9
-[Source 3] TUF-2000-Series-User-Manual.pdf, p.35
-[Source 4] TUF-2000-Series-User-Manual.pdf, p.24
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.34"
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  TUF-2000U Installation and Wiring Diagram 4.2 Fix mounting  TUF-2000F2 Installation and Wiring Diagram The converter is generally installed on the pipeline, sometimes installed in the water. 8
+--------------------------------------------------
+
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.8
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  TUF-2000S and TUF-2000D Installation Instruction Thickness: 75mm Thickness: 165mm Wall mounting: Fix the converter Explosion-proof grade: DⅡBT5 with 4 Φ6 expansion bolts. Fix the converter with 4 Φ8 expansion bolts.  TUF-2000S and TUF-2000D Wiring Diagram 7
+--------------------------------------------------
+
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.7
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  DIN-rail mounting by using PCB bracket Converter of TUF-2000B can be installed on the wall or in distribution box and explosion-proof box  TUF-2000B Wiring Diagram 6
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.5
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 3. Measuring Diagrams 3.1 Separated Mounting Clamp on Insertion Inline Note: Mounting of TUF-2000U and TUF-2000D are in the same way. 3.2 Fixed Mounting Clamp on Insertion Inline 3.3 Module type Clamp on Insertion Inline Temperature can be measured by connecting PT100 temperature transducer on both water supply and return pipes. 4
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.24
+PASSAGE:
+>> Ultrasonic Flow meter User Manual >> Scaling The inside scaling would have bad effect on ultrasonic signal transmission, and would decrease the inner diameter as well. As a result, the measurement accuracy can not be guaranteed. Please try to avoid choosing the installation point with inside scaling. >>Temperature The liquid temperature on installation point should be in the working range of transducers. Please try to choose the point with lower temperature. Avoid to choose points like the outlet of boiler water and heat exchanger. Return water pipe would be better. Temperature range of standard clamp on and insertion transducers: -30 ~ 90℃ Temperature range of high temperature clamp on and insertion transducers: -30 ~ 160℃ >>Pressure The maximum pressure for standard insertion and inline transducer is 1.6MPa Out of this range need customized. >>EMI (electromagnetic interference) The ultrasonic flow meter, transducer and signal cable can be easily interfered by interference sources 
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.34
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 7.5 Check Installation The flow meter includes the detection ability. M90 is used for checking signal strength and quality. M91 is used for checking the ratio of measured and theoretical transmission time (transmission time ratio). 1) Check signal strength and quality M90 is used for checking the signal strength and signal quality(Q value) of upstream and downstream transducers. Signal strength is represented by numbers 00.0 ~ 99.9, 00.0 means no signal and 99.0 means maximum signal. Generally, the flow meter can work properly when signal strength is > 60.0 Signal quality (Q value) is represented by numbers 00 ~ 99. 00 means signal is worst and 99 means signal is best. The flow meter can work properly when Q > 60. During the installation, please adjust the transducer to make the signal strength and signal quality the larger the better. This will ensure the flow meter long term stable operation and lead to accurate measurement. Signal strength and Q 
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.35
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 8. Finish Installation 1) Commonly used menus. M00 or M02 is for meter reading. M30~M33 is for unit selection. M40 is for selecting damping factor, generally 5~10 sec. M60 is for correcting time and date. M26 is for curing parameters. 2) To avoid signal reduction and improve anti-jamming ability, it is better to use the customized signal cable from flow meter manufacturer. 3) The length of cables between converter and transducer should be as short as possible, cannot exceed 200m. 4) The temperature and humidity of working environment should be in the range of technical specifications. Avoid direct sunlight on LCD. 34
+--------------------------------------------------"
 2,fact,What components make up an ultrasonic heat meter according to the TUF-2000 manual?,Converter + transducer + temperature transducer.,TUF-2000-Series-User-Manual(1).pdf,3,"According to [Source 1], page 3, an ultrasonic heat meter is composed of:
 
 ""Ultrasonic Heat meter = Converter + transducer + Temperature transducer""
 
 [Source 1]",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
 [Source 2] TUF-2000-Series-User-Manual.pdf, p.19
+PASSAGE:
+>> Ultrasonic Flow meter User Manual at 60 seconds long to get a 1% dose accuracy. View the daily, monthly and yearly flow totalizer and thermal energy totalizer value. M82 The totalizer values and errors for the last 64 days, 32 last 32 months and last 2 years are stored in the RAM memory, To view them, use the ‘ENT’ and ‘UP’ ‘Down’ keys. Automatic Amending Function for automatic offline compensation. Select ‘YES’ to enable this function, select ‘NO’ to disable it. When the function is enabled, The flow meter will estimate the average flow uncounted M83 (or ‘lost’) during the offline session and add the result to the totalizer. The estimation of the uncounted flow is made by computing the product of the offline time period and the average flow rate, which is the average of the flow rate before going offline and the one after going on line. Set the thermal energy unit: M84 0. GJ 1. KC 2.KWh 3. BTU Select temperature sources M85 0. from T1,T2 (factory default) 1. from AI3,AI4 Select the
+--------------------------------------------------
+
 [Source 3] TUF-2000-Series-User-Manual.pdf, p.4
-[Source 4] TUF-2000-Series-User-Manual.pdf, p.24
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.2"
-3,fact,What is the default management IP address of the Walrus-OD gateway?,192.168.8.1,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,192.168.8.1 [Source 3],NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 1.3 Types of Flow/Temperature transducers Flow transducer Picture Model Measuring range Temperature TS-2 (small) DN25-100 Clamp on -30 ~ 90℃ TM-1 (medium) DN50-700 TL-1 (large) DN300-6000 TS-2-HT (small) DN25-100 High temp. -30 ~ 160℃ TM-1-HT (medium) DN50-700 Clamp on TL-1-HT (large) DN300-6000 TC-1 (standard) DN50-6000 Insertion TC-2 (extended) -30 ~ 160℃ TP-1 (parallel) DN80-6000 Inline Standard DN15-1000 -30 ~160℃ Temperature Picture Model Measuring Temperature Cut off water transducer range Clamp on CT-1 DN50-6000 -40 ~ 160℃ No need Insertion TCT-1 DN50-6000 -40 ~ 160℃ Need Insertion under pressure PCT-1 DN50-6000 -40 ~ 160℃ No need Insertion small sizes SCT-1 < DN50 -40 ~ 160℃ Need 2. Check Components 1. Please check you have all the components in the order. 2. All codes on the converter and transducers should be matched. They are used in sets. transducer Codes transducer Codes on Converter 3
+--------------------------------------------------
+
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.10
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  TUF-2000F2 Wiring Diagram Open the flip cover and complete the wiring. To avoid leaking, please tighten the water joint and screws of the back cover after wiring, then pot gel inside to reach IP68 protection class. 4.3 Module type 9
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.24
+PASSAGE:
+>> Ultrasonic Flow meter User Manual >> Scaling The inside scaling would have bad effect on ultrasonic signal transmission, and would decrease the inner diameter as well. As a result, the measurement accuracy can not be guaranteed. Please try to avoid choosing the installation point with inside scaling. >>Temperature The liquid temperature on installation point should be in the working range of transducers. Please try to choose the point with lower temperature. Avoid to choose points like the outlet of boiler water and heat exchanger. Return water pipe would be better. Temperature range of standard clamp on and insertion transducers: -30 ~ 90℃ Temperature range of high temperature clamp on and insertion transducers: -30 ~ 160℃ >>Pressure The maximum pressure for standard insertion and inline transducer is 1.6MPa Out of this range need customized. >>EMI (electromagnetic interference) The ultrasonic flow meter, transducer and signal cable can be easily interfered by interference sources 
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.2
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Contents 1. Products Categories.................................................................................................................. 2 1.1 Composition of Ultrasonic flow meter .......................................................................... 2 1.2 Types of Converters ....................................................................................................... 2 1.3 Types of Flow/Temperature transducers ....................................................................... 3 2. Check Components................................................................................................................... 3 3. Measuring Diagrams ................................................................................................................ 4 4. Converter Installation and Wiring Diagram ............................................................................. 5 4.1 Separated Mounting .............................
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.15
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 6.3 Menu Details Menu No. Details M00 Display flow rate and NET totalizer. Unit selection in M30~M32. M01 Display flow rate and velocity. Unit selection in M30~M32. M02 Display flow rate and POS(positive) totalizer. Unit selection in M30~M32. M03 Display flow rate and NEG(negative) totalizer.Unit selection in M30~M32. M04 Display date and time, flow rate. M05 Display heat flow rate and total heat. Unit selection in M84 and M88. M06 Display temperatures, inlet T1, outlet T2 M07 Display analog inputs, AI3/AI4 M08 Display system error codes. ‘R’ stands for normal. M09 Display today’s total NET flow M10 Input outer perimeter. *M11 Input outer diameter. Available range is 0 to 18000mm. *M12 Input pipe wall thickness *M13 Input inner diameter. *M14 Select pipe material. M15 Input sound velocity of the pipe material. M16 Select lining material. M17 Input sound velocity of the lining material. M18 Input the lining thickness. M19 Input the absolute roughness
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.29
+PASSAGE:
+>> Ultrasonic Flow meter User Manual >> Parallel insertion If there is insufficient installation space or the transducers can be only installed on the top of pipeline, parallel insertion transducer will be a good choice. (Pipe size ≥300) Positioning of parallel insertion transducer need to meet the 3 factors as follow:  Installation distance = Vertical distance of two transducers along the pipe axis direction  Make sure two transducers are in the same horizontal line, Insertion depth = 1/3 inner diameter  Users can set the distance between transducers by themselves. Recommend 300~500mm 3) Positioning installation points >> V method The line between two transducers is parallel to pipe axis, and equal to the distance shown in the converter. As shown, A, B are the two installation points. >> Z method ○1 Firstly according to the installation distance shown in converter, positioning two points A, C on the same side of pipeline. AC is parallel to pipe axis. ○2 Perpendicular to the pipe ax
+--------------------------------------------------"
+3,fact,What is the default management IP address of the Walrus-OD gateway?,192.168.8.1,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,"According to [Source 3], page 3, the default management IP address of the Walrus-OD gateway is 192.168.8.1.
+
+[Source 3]: ""3. Gateway Configure 3.1.Gateway Login  Open the browser on your computer and fill the IP 192.168.8.1 (default).""",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
 [Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
-[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3"
-4,fact,What external DC supply range is specified for the Walrus-OD gateway?,DC 12 to 28 V.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,[Source 1] The external DC supply range for the Walrus-OD gateway is specified as DC12 to 28V.,NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+eway Login  Open the browser on your computer and fill the IP 192.168.8.1 (default).  Enter the username and password. Username: admin Password: admin 1 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.2
+PASSAGE:
+CONTENT 1. PREVIEW......................................................................................................................................................................1 2. GATEWAY MANAGEMENT............................................................................................................................................1 3. GATEWAY CONFIGURE................................................................................................................................................. 1 3.1. GATEWAY LOGIN.............................................................................................................................................................. 1 3.2. DEVICE INFO................................................................................................................................................................... 2 3.3. LORAWAN CONFIG.......................................................................................................
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------"
+4,fact,What external DC supply range is specified for the Walrus-OD gateway?,DC 12 to 28 V.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,"According to [Source 1], page 3, the external power input port, Power, is specified as follows:
+
+""Power: External power supply input port, DC12 to 28V.""
+
+Therefore, the external DC supply range specified for the Walrus-OD gateway is 12V to 28V. [Source 1]",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
-[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
-[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6"
-5,fact,How long can the Walrus-OD internal backup battery support operation without external power?,Over 5 hours.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,"According to [Source 1], page 3: ""Would have an internal battery for backup which could support over 5 hours duration without external power."" [Source 1]",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.24
+PASSAGE:
+e station, GSM base station and high-tension cable. Please try to avoid these interference sources when choosing installation points. The shield layer of flow meter, transducer and signal cable should be connected to earth. Better to use isolated power supply. Do not use the same power supply with the frequency converter. >>Instrument well When measuring underground pipes or need to protect the measuring points, an instrument well is required. To ensure the enough installation space, the sizes of instrument well should meet the following requirements. D means the pipe diameter 23
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.5
+PASSAGE:
+3.3.LoRaWAN Config 3.3.1. Ambient Noise Scanning Enter band start frequency, end frequency, and step width. In this example, the test frequency is 868MHZ, so the frequency band setting is from 867 MHZ to 869 MHZ, and the step setting is 100KHZ. Click the Start Scanning to begin the ambient noise scanning Note: The ambient noise can’t be over -95dBm, normally -100dBm is the worst condition. For example if the value is -107dBm which is a good condition. If the result shows an ambient noise over -95dBm, you must change the installation place. Or the communication distance will be greatly reduced. So if the result is like this picture the gateway location is acceptable. 3 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.19
+PASSAGE:
+he range of 100±3%. Otherwise the entered parameters and the transducer installation should be checked. Displays the estimated fluid sound velocity. If this value has an obvious difference with M92 the actual fluid sound speed, pipe parameters entered and the transducer installation should be checked again. M93 Displays total transit time and delta time(transit time difference) Displays the Reynolds number and the pipe factor used by the flow rate measurement M94 program. Pipe factor is calculated based on the ratio of the line-average velocity and the cross-section average velocity. M95 (1) Display the positive and negative energy totalizers 18
+--------------------------------------------------"
+5,fact,How long can the Walrus-OD internal backup battery support operation without external power?,Over 5 hours.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,3,"According to [Source 1], page 3, the Walrus-OD internal backup battery can support operation for over 5 hours without external power.
+
+[Source 1]: ""Would have an internal battery for backup which could support over 5 hours duration without external power.""",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 3] TUF-2000-Series-User-Manual.pdf, p.20
-[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
-[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1"
-6,fact,What does the blue status indicator mean on the Walrus-OD Device Info screen?,Working normally.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,4,"According to [Source 1], page 4:
+PASSAGE:
+window but a command to copy the current display window. By default, the produced data will be directed to the internal serial bus (thermal printer). You can also direct those data to the serial communication port. M99 By use of the window copying function, you can hardcopy very window displaying manually by switching windows, or you can obtain the window displaying data by communication. Browse the 32 recorded instrument power-on and power-off date and time with the flow M+0 rate at the time of power on and off Displays the total working time of the flow meter. M+1 When the backup battery is removed, the total working time will be reset to zero. M+2 Displays the last power-off date and time M+3 Displays the last power-off flow rate M+4 Displays how many times of has been powered on and powered off. A scientific calculator for the convenience of field working. All the values are in single accuracy. M+5 The calculator can be used while the flow meter is conducting flow measurement. Wate
+--------------------------------------------------
 
-""The color shows blue is working normally...""
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.17
+PASSAGE:
+Definition of LoRaWAN module battery state (more details refer to chapter 5.) Value Explain 0x00 Power supply 0x01-0xFE Electric quantity 0-100%: (Byte-1)/253*100% 0xFF Unknown For example: count number is 0, current consumption is 51m³, empty pipe, the LoRaWAN batter percentage is 50%. The data frame is: 81 0A 90 1F 00 2B 00 10 05 00 00 02 7F 4.1.4 The totalizer uplink for heat meter (port 25) Field Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x16 Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 4 Cold(0.01kWh) Lower byte priority 4 Heat(0.01kWh) Lower byte priority 4 Volume(0.01m³) Lower byte priority 2 T-in(0.01℃) Lower byte priority 2 T-out(0.01℃) Lower byte priority Data field 1 ST1 - 1 ST2 - Calculated from Checksum “Control code” to 1 “ST2” Sum of bytes modulo 256 LoRaWAN 1 Variable value Battery 15 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
 
-[Source 1]",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
+[Source 6] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.20
+PASSAGE:
+in this function. Set fluid sound speed threshold Whenever the estimated sound speed (displayed in M92) exceeds this threshold, an alarms M+6 signal will be generated and can transmitted to BUZZER or OCT or RELAY. This function can used to produce an alarm or output when fluid material changes. M+7 Displays total flow for this month(only for the time past) M+8 Displays total flow for this year(only for the time past) Display the not-working total time in seconds. The total failure timer will also include the M+9 time when power off, if the back-up battery is applied. M.2 Entry to solidify the zero point. password protected. Setup the Q value threshold. M.5 If the present Q is below this threshold, flow rate will be set to 0. This function is useful when flow meter is installed in noisy environment or on airy pipes. M.8 The maximum flow rates for today and this month. 19
+--------------------------------------------------
+
+[Source 8] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.6
+PASSAGE:
+application is in sup low power. Only after the terminal uplink, the server can do the downlink. Class B: Two-way communication terminal device with preset receiving slot. These terminals will open all the extra receive windows in preset time. In this way the reserve know the terminal is receiving data. Class C: Two-way communication terminal device with the biggest receiving slot. These devices are always open to the receive window, so the power is high. Function AT command transmission AT command return +CLASS A /+CLASS B Read the mode AT+CLASS /CLASS C Change the mode in AT+CLASS=A +CLASS A class A Change the mode in AT+CLASS=B +CLASS B class B Change the mode in AT+CLASS=C +CLASS C class C 2.4.DR Use LoRaWAN defined DRx to set data rate of LoRaWAN AT modem. Function AT command transmission AT command return +DR: DR0 (ADR DR2) +DR: EU868 DR2 SF10 BW125K Read the band AT+DR +DR: EU868 DR0 SF12 BW125K (ADR means Rate adaptation) Set the band in AT+DR=EU868/IN865/AS923/A +DR: EU868/ +D
+--------------------------------------------------"
+6,fact,What does the blue status indicator mean on the Walrus-OD Device Info screen?,Working normally.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,4,"According to [Source 1], page 4, the blue status indicator on the Device Info screen means that the function is working normally.
+
+[Source 1]: ""Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function.""
+
+Therefore, the blue status indicator indicates that the function is working as expected.",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.17"
-7,fact,What is the default network IP configuration protocol for the Walrus-OD gateway?,DHCP.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,7,"[Source 2] The default network protocol is DHCP. (Source 2, page 6, 3.5.2. IP Config)",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.17
+PASSAGE:
+for Alarm#1. M73 When the flow rate is below the set value, Alarm#1 equals ‘on’ Window to setup the upper limit of flow rate for Alarm#1. When the flow rate is above the set value, Alarm#1 equals ‘on’ M74 There are two alarms in the flow meter, and every alarm can be pointed to alarm output devices such as the BUZZER or OCT output or RELAY output. For example, if you want 16
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.11
+PASSAGE:
+3. WIRELESS FUNCTION 3.1.TIME SYNCHRONIZATION Meter will request time synchronization from Network Server for every 7 days. 3.2.DATA UPLINK In class A mode, meter can uplink by two ways. • Interval • Timepoint Refer to chapter 2.8. & 2.10. 3.3.ACK ACK function (ULCONFIRM) is optional but in real installation not suggested. Because each installation position has different signal strength which may lead to bigger power consumption (when ACK turns on). Refer to chapter 2.7. 4. PAYLOAD Definition of lower byte priority Hereafter if one data field uses “lower byte priority” format, it should follow the below rule to decode. Data 0x (12 34 56 78) 1st transform to correct hexadecimal order: 0x (78 56 34 12) Decode 2nd transform to decimal number by BCD rule: 78563412 Definition of unit indicator Unit Description 0X2B 0.001m³ 0X2C 0.01m³ 0X2D 0.1m³ 0X2E 1m³ 0X35 0.0001m³ 4.1 UPLINK PAYLOAD 4.1.1 The serial number uplink for water meter (port 25) The definition of the data frame Field Byte Coun
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.8
+PASSAGE:
+Note: Add APN needs to confirm the information on the picture with the operator. 3.5.4. RSSH Operation 1) RSSH is an auxiliary tool used by the company to remotely manage devices. After launching the tool, the device will connect to the specified server and generate a port number. 2) The user can provide the port number to the company's technical support for remote debugging or troubleshooting of the device. 3.5.5. Ping / Traceroute / Host Using network tools to check the network status. 6 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------"
+7,fact,What is the default network IP configuration protocol for the Walrus-OD gateway?,DHCP.,Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,7,"According to [Source 1], page 7, the default network protocol is DHCP. 
+
+[Source 1]: ""3.5.2. IP Config The default network protocol is DHCP.""",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
-[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
-[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1"
-8,fact,What is the maximum number of retransmissions stated for a confirmed LoRaWAN uplink when no downlink is received?,Maximum 3 retransmissions.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"[Source 4] According to the document, if the data transmission is confirmed and no downlink is received, the meter will uplink again a maximum of 3 times.",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.11
-[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.6
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+eway Login  Open the browser on your computer and fill the IP 192.168.8.1 (default).  Enter the username and password. Username: admin Password: admin 1 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 6] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.5
+PASSAGE:
+3.3.LoRaWAN Config 3.3.1. Ambient Noise Scanning Enter band start frequency, end frequency, and step width. In this example, the test frequency is 868MHZ, so the frequency band setting is from 867 MHZ to 869 MHZ, and the step setting is 100KHZ. Click the Start Scanning to begin the ambient noise scanning Note: The ambient noise can’t be over -95dBm, normally -100dBm is the worst condition. For example if the value is -107dBm which is a good condition. If the result shows an ambient noise over -95dBm, you must change the installation place. Or the communication distance will be greatly reduced. So if the result is like this picture the gateway location is acceptable. 3 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 7] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.10
+PASSAGE:
+ion AT+VER=FULL +VER: 1.1.12, 1.0, ""RHF1S0X1"", ""Dec 30 2020 10:34:12"" Check the version AT+VER +VER:1.1.12 2.17. RESET Reset LoRaWAN network, the device will auto join after reset Function AT command transmission AT command return RESET AT+RESET +RESET: OK 2.18. RELAY Only for the meter with relay function Function AT command transmission AT command return RELAY OPEN AT+RELAY=SLAVE +RELAY: SLAVE RELAY CLOSE AT+RELAY=OFF +RELAY: OFF 8 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------"
+8,fact,What is the maximum number of retransmissions stated for a confirmed LoRaWAN uplink when no downlink is received?,Maximum 3 retransmissions.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"According to [Source 4], page 8, when the data transmission is confirmed and no downlink is received, the meter will uplink again a maximum of 3 times.
+
+[Source 4] 2.7.ULCONFIRM Function AT command transmission AT command return Enable the data transmission is AT+ULCONFIRMED=ON +ULCONFIRMED: ON confirmed Disable the data transmission is AT+ULCONFIRMED=OFF +ULCONFIRMED: OFF confirmed Note: if enable the data transmission which is confirmed. The data uplink will with a data downlink. So if the meter does not receive the downlink it would uplink again (maximum 3 times).",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.11
+PASSAGE:
+3. WIRELESS FUNCTION 3.1.TIME SYNCHRONIZATION Meter will request time synchronization from Network Server for every 7 days. 3.2.DATA UPLINK In class A mode, meter can uplink by two ways. • Interval • Timepoint Refer to chapter 2.8. & 2.10. 3.3.ACK ACK function (ULCONFIRM) is optional but in real installation not suggested. Because each installation position has different signal strength which may lead to bigger power consumption (when ACK turns on). Refer to chapter 2.7. 4. PAYLOAD Definition of lower byte priority Hereafter if one data field uses “lower byte priority” format, it should follow the below rule to decode. Data 0x (12 34 56 78) 1st transform to correct hexadecimal order: 0x (78 56 34 12) Decode 2nd transform to decimal number by BCD rule: 78563412 Definition of unit indicator Unit Description 0X2B 0.001m³ 0X2C 0.01m³ 0X2D 0.1m³ 0X2E 1m³ 0X35 0.0001m³ 4.1 UPLINK PAYLOAD 4.1.1 The serial number uplink for water meter (port 25) The definition of the data frame Field Byte Coun
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.6
+PASSAGE:
+application is in sup low power. Only after the terminal uplink, the server can do the downlink. Class B: Two-way communication terminal device with preset receiving slot. These terminals will open all the extra receive windows in preset time. In this way the reserve know the terminal is receiving data. Class C: Two-way communication terminal device with the biggest receiving slot. These devices are always open to the receive window, so the power is high. Function AT command transmission AT command return +CLASS A /+CLASS B Read the mode AT+CLASS /CLASS C Change the mode in AT+CLASS=A +CLASS A class A Change the mode in AT+CLASS=B +CLASS B class B Change the mode in AT+CLASS=C +CLASS C class C 2.4.DR Use LoRaWAN defined DRx to set data rate of LoRaWAN AT modem. Function AT command transmission AT command return +DR: DR0 (ADR DR2) +DR: EU868 DR2 SF10 BW125K Read the band AT+DR +DR: EU868 DR0 SF12 BW125K (ADR means Rate adaptation) Set the band in AT+DR=EU868/IN865/AS923/A +DR: EU868/ +D
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
-[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.17"
-9,table,What measuring range is listed for the TUF-2000 TM-1 medium clamp-on transducer?,DN50-700.,TUF-2000-Series-User-Manual(1).pdf,4,DN50-700 [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.4
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.8
+PASSAGE:
+2.7.ULCONFIRM Function AT command transmission AT command return Enable the data transmission is AT+ULCONFIRMED=ON +ULCONFIRMED: ON confirmed Disable the data transmission is AT+ULCONFIRMED=OFF +ULCONFIRMED: OFF confirmed Note: if enable the data transmission which is confirmed. The data uplink will with a data downlink. So if the meter does not receive the downlink it would uplink again (maximum 3 times). If disable the data transmission which is confirmed. So when the data uplink, it won’t with a downlink. In default, it’s off. 2.8.INTERVAL Function AT command transmission AT command return Query the uplink AT+PERIOD=INTERVAL +PERIOD: INTERVAL, 240 interval cycle Set the uplink AT+PERIOD=INTERVAL,100 +PERIOD: INTERVAL, 100 interval cycle (unit: min) Disable the interval AT+PERIOD=INTERVAL,OFF +PERIOD: INTERVAL, OFF uplink function Note: when you set the report interval time it will be on. 2.9.MODE The way to join the server. Function AT command transmission AT command return Query th
+--------------------------------------------------
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.17
+PASSAGE:
+Definition of LoRaWAN module battery state (more details refer to chapter 5.) Value Explain 0x00 Power supply 0x01-0xFE Electric quantity 0-100%: (Byte-1)/253*100% 0xFF Unknown For example: count number is 0, current consumption is 51m³, empty pipe, the LoRaWAN batter percentage is 50%. The data frame is: 81 0A 90 1F 00 2B 00 10 05 00 00 02 7F 4.1.4 The totalizer uplink for heat meter (port 25) Field Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x16 Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 4 Cold(0.01kWh) Lower byte priority 4 Heat(0.01kWh) Lower byte priority 4 Volume(0.01m³) Lower byte priority 2 T-in(0.01℃) Lower byte priority 2 T-out(0.01℃) Lower byte priority Data field 1 ST1 - 1 ST2 - Calculated from Checksum “Control code” to 1 “ST2” Sum of bytes modulo 256 LoRaWAN 1 Variable value Battery 15 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.12
+PASSAGE:
+Data length 1 - 0x0A Data identification 1 DI0 0x81 Data identification 1 DI1 0x0A Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: 830A810A0041370039007400 4.1.2 The serial number uplink for heat meter (port 25) The definition of the data frame Filed Byte Count Parameter Example Control code 1 - 0XA6 Data length 1 - 0x0A Data identification 1 DI0 0x01 Data identification 1 DI1 0x00 Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: A60A01000041370039007400 4.1.3 The totalizer uplink for water meter (port 25) The definition of the data frame: Filed Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x0A Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 1 Unit - 4 Current Lower byte priority Data field 1 ST1 - 1 ST2 
+--------------------------------------------------
+
+[Source 7] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 8] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.9
+PASSAGE:
+Set the uplink AT+PERIOD=TIMEPOINT,”18:20” +PERIOD: TIMEPOINT, 18:20, 17:50 timepoint Disable the timepoint AT+PERIOD=TIMEPOINT,OFF +PERIOD: TIMEPOINT, OFF uplink function Note: 1. In “Set the uplink timepoint” the return “+PERIOD: TIMEPOINT, 18:20, 17:50” 17:50 is the real uplink timepoint. 2. When you set the uplink timepoint, you will enable the timepoint uplink function. 2.11. FDEFAULT Set the device to factory default mode, all the parameters will be changed. Function AT command transmission AT command return To initialize the module AT+FDEFAULT +FDEFAULT: OK 2.12. RDMETER Analog trigger reporting, the same as trigger the hall to report. Function AT command transmission AT command return Trigger reporting AT+RDMETER=UL +RDMETER: UL 2.13. RTC Get real time from LoRaWAN modem. When modem is powered on, it always starts from 2000-01-01 00:00:00, user could set new time to modem to sync to the real time. Function AT command transmission AT command return Check current time AT+RTC +RTC
+--------------------------------------------------"
+9,table,What measuring range is listed for the TUF-2000 TM-1 medium clamp-on transducer?,DN50-700.,TUF-2000-Series-User-Manual(1).pdf,4,"According to [Source 1], page 4, the measuring range for the TM-1 (medium) clamp-on transducer is DN50-700.",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.4
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 1.3 Types of Flow/Temperature transducers Flow transducer Picture Model Measuring range Temperature TS-2 (small) DN25-100 Clamp on -30 ~ 90℃ TM-1 (medium) DN50-700 TL-1 (large) DN300-6000 TS-2-HT (small) DN25-100 High temp. -30 ~ 160℃ TM-1-HT (medium) DN50-700 Clamp on TL-1-HT (large) DN300-6000 TC-1 (standard) DN50-6000 Insertion TC-2 (extended) -30 ~ 160℃ TP-1 (parallel) DN80-6000 Inline Standard DN15-1000 -30 ~160℃ Temperature Picture Model Measuring Temperature Cut off water transducer range Clamp on CT-1 DN50-6000 -40 ~ 160℃ No need Insertion TCT-1 DN50-6000 -40 ~ 160℃ Need Insertion under pressure PCT-1 DN50-6000 -40 ~ 160℃ No need Insertion small sizes SCT-1 < DN50 -40 ~ 160℃ Need 2. Check Components 1. Please check you have all the components in the order. 2. All codes on the converter and transducers should be matched. They are used in sets. transducer Codes transducer Codes on Converter 3
+--------------------------------------------------
+
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.5
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 3. Measuring Diagrams 3.1 Separated Mounting Clamp on Insertion Inline Note: Mounting of TUF-2000U and TUF-2000D are in the same way. 3.2 Fixed Mounting Clamp on Insertion Inline 3.3 Module type Clamp on Insertion Inline Temperature can be measured by connecting PT100 temperature transducer on both water supply and return pipes. 4
+--------------------------------------------------
+
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.25
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 7.2 Clamp on transducer Installation ! Before installation, please verify the parameters of pipeline and liquid. To ensure the△ installation accuracy. 1) Installation procedure Select an installation method →Input the measuring parameters →Clean pipe surface → Install transducers →Check the installation 2) Select an installation method There are two different methods for clamp on transducers: V method and Z method. >> V method V method should be priority selected for pipe sizes DN15 - DN200. Let the pair of transducers horizontal alignment, the central line in parallel with the pipeline axis. >> Z method Z method should be priority selected for pipe sizes DN200 - DN6000. Also can be used when V method doesn’t work well. Make sure the vertical distance of two transducers equals to the installation distance, and the two transducers are on the same axis surface. 24
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.24
+PASSAGE:
+>> Ultrasonic Flow meter User Manual >> Scaling The inside scaling would have bad effect on ultrasonic signal transmission, and would decrease the inner diameter as well. As a result, the measurement accuracy can not be guaranteed. Please try to avoid choosing the installation point with inside scaling. >>Temperature The liquid temperature on installation point should be in the working range of transducers. Please try to choose the point with lower temperature. Avoid to choose points like the outlet of boiler water and heat exchanger. Return water pipe would be better. Temperature range of standard clamp on and insertion transducers: -30 ~ 90℃ Temperature range of high temperature clamp on and insertion transducers: -30 ~ 160℃ >>Pressure The maximum pressure for standard insertion and inline transducer is 1.6MPa Out of this range need customized. >>EMI (electromagnetic interference) The ultrasonic flow meter, transducer and signal cable can be easily interfered by interference sources 
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.11
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 5. Transducer Introduction and Wiring Diagram 5.1 Clamp on type transducer  Introduction  Wiring Diagram 10
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.19
+PASSAGE:
+he range of 100±3%. Otherwise the entered parameters and the transducer installation should be checked. Displays the estimated fluid sound velocity. If this value has an obvious difference with M92 the actual fluid sound speed, pipe parameters entered and the transducer installation should be checked again. M93 Displays total transit time and delta time(transit time difference) Displays the Reynolds number and the pipe factor used by the flow rate measurement M94 program. Pipe factor is calculated based on the ratio of the line-average velocity and the cross-section average velocity. M95 (1) Display the positive and negative energy totalizers 18
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.35
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 8. Finish Installation 1) Commonly used menus. M00 or M02 is for meter reading. M30~M33 is for unit selection. M40 is for selecting damping factor, generally 5~10 sec. M60 is for correcting time and date. M26 is for curing parameters. 2) To avoid signal reduction and improve anti-jamming ability, it is better to use the customized signal cable from flow meter manufacturer. 3) The length of cables between converter and transducer should be as short as possible, cannot exceed 200m. 4) The temperature and humidity of working environment should be in the range of technical specifications. Avoid direct sunlight on LCD. 34
+--------------------------------------------------"
+10,table,What temperature range is listed for the TUF-2000 high-temperature clamp-on transducers?,-30 to 160 degrees C.,TUF-2000-Series-User-Manual(1).pdf,4,"According to [Source 4], page 24, the temperature range for high-temperature clamp-on and insertion transducers is -30 ~ 160℃.
+
+[Source 4] TUF-2000-Series-User-Manual.pdf, page 24 >>Temperature The liquid temperature on installation point should be in the working range of transducers. Please try to choose the point with lower temperature. Avoid to choose points like the outlet of boiler water and heat exchanger. Return water pipe would be better. Temperature range of standard clamp on and insertion transducers: -30 ~ 90℃ Temperature range of high temperature clamp on and insertion transducers: -30 ~ 160℃",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.4
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 1.3 Types of Flow/Temperature transducers Flow transducer Picture Model Measuring range Temperature TS-2 (small) DN25-100 Clamp on -30 ~ 90℃ TM-1 (medium) DN50-700 TL-1 (large) DN300-6000 TS-2-HT (small) DN25-100 High temp. -30 ~ 160℃ TM-1-HT (medium) DN50-700 Clamp on TL-1-HT (large) DN300-6000 TC-1 (standard) DN50-6000 Insertion TC-2 (extended) -30 ~ 160℃ TP-1 (parallel) DN80-6000 Inline Standard DN15-1000 -30 ~160℃ Temperature Picture Model Measuring Temperature Cut off water transducer range Clamp on CT-1 DN50-6000 -40 ~ 160℃ No need Insertion TCT-1 DN50-6000 -40 ~ 160℃ Need Insertion under pressure PCT-1 DN50-6000 -40 ~ 160℃ No need Insertion small sizes SCT-1 < DN50 -40 ~ 160℃ Need 2. Check Components 1. Please check you have all the components in the order. 2. All codes on the converter and transducers should be matched. They are used in sets. transducer Codes transducer Codes on Converter 3
+--------------------------------------------------
+
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.5
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 3. Measuring Diagrams 3.1 Separated Mounting Clamp on Insertion Inline Note: Mounting of TUF-2000U and TUF-2000D are in the same way. 3.2 Fixed Mounting Clamp on Insertion Inline 3.3 Module type Clamp on Insertion Inline Temperature can be measured by connecting PT100 temperature transducer on both water supply and return pipes. 4
+--------------------------------------------------
+
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
+[Source 4] TUF-2000-Series-User-Manual.pdf, p.24
+PASSAGE:
+>> Ultrasonic Flow meter User Manual >> Scaling The inside scaling would have bad effect on ultrasonic signal transmission, and would decrease the inner diameter as well. As a result, the measurement accuracy can not be guaranteed. Please try to avoid choosing the installation point with inside scaling. >>Temperature The liquid temperature on installation point should be in the working range of transducers. Please try to choose the point with lower temperature. Avoid to choose points like the outlet of boiler water and heat exchanger. Return water pipe would be better. Temperature range of standard clamp on and insertion transducers: -30 ~ 90℃ Temperature range of high temperature clamp on and insertion transducers: -30 ~ 160℃ >>Pressure The maximum pressure for standard insertion and inline transducer is 1.6MPa Out of this range need customized. >>EMI (electromagnetic interference) The ultrasonic flow meter, transducer and signal cable can be easily interfered by interference sources 
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.25
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 7.2 Clamp on transducer Installation ! Before installation, please verify the parameters of pipeline and liquid. To ensure the△ installation accuracy. 1) Installation procedure Select an installation method →Input the measuring parameters →Clean pipe surface → Install transducers →Check the installation 2) Select an installation method There are two different methods for clamp on transducers: V method and Z method. >> V method V method should be priority selected for pipe sizes DN15 - DN200. Let the pair of transducers horizontal alignment, the central line in parallel with the pipeline axis. >> Z method Z method should be priority selected for pipe sizes DN200 - DN6000. Also can be used when V method doesn’t work well. Make sure the vertical distance of two transducers equals to the installation distance, and the two transducers are on the same axis surface. 24
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.35
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 8. Finish Installation 1) Commonly used menus. M00 or M02 is for meter reading. M30~M33 is for unit selection. M40 is for selecting damping factor, generally 5~10 sec. M60 is for correcting time and date. M26 is for curing parameters. 2) To avoid signal reduction and improve anti-jamming ability, it is better to use the customized signal cable from flow meter manufacturer. 3) The length of cables between converter and transducer should be as short as possible, cannot exceed 200m. 4) The temperature and humidity of working environment should be in the range of technical specifications. Avoid direct sunlight on LCD. 34
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.21
+PASSAGE:
+>> Ultrasonic Flow meter User Manual M.9 Serial port tester with CMM command output for very second. M-0 Entry to hardware adjusting windows only for the manufacturer M-1 4-20mA output adjustment M-2 4mA calibration for AI3 input M-3 20mA calibration for AI3 input M-4 4mA calibration for AI4 input M-5 20mA calibration for AI4 input M-6 4mA calibration for AI5 input M-7 20mA calibration for AI5 input M-8 Lower Temperature Zero setup for the PT100 M-9 Higher Temperature Zero setup for the PT100 M-A Temperature Calibration at 50℃ M-B Temperature Calibration at 84.5℃ 20
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.27
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 5) Install transducers After transducer wiring and sealing, please evenly smear 2-3mm couplant on the transducer emitting surface. Then put the transducers on the installation points, fixed with steel belt or steel rope. 6) Check Installation Please see details in Chapter 7.5 26
+--------------------------------------------------"
+11,table,Which TUF-2000 menu displays today’s total NET flow?,M09.,TUF-2000-Series-User-Manual(1).pdf,15,"According to [Source 1], page 15, the menu that displays today's total NET flow is M09.
+
+Explanation: The menu details are listed in the passage, and M09 is specifically mentioned as displaying today's total NET flow.
+
+Source: [Source 1]",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.15
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 6.3 Menu Details Menu No. Details M00 Display flow rate and NET totalizer. Unit selection in M30~M32. M01 Display flow rate and velocity. Unit selection in M30~M32. M02 Display flow rate and POS(positive) totalizer. Unit selection in M30~M32. M03 Display flow rate and NEG(negative) totalizer.Unit selection in M30~M32. M04 Display date and time, flow rate. M05 Display heat flow rate and total heat. Unit selection in M84 and M88. M06 Display temperatures, inlet T1, outlet T2 M07 Display analog inputs, AI3/AI4 M08 Display system error codes. ‘R’ stands for normal. M09 Display today’s total NET flow M10 Input outer perimeter. *M11 Input outer diameter. Available range is 0 to 18000mm. *M12 Input pipe wall thickness *M13 Input inner diameter. *M14 Select pipe material. M15 Input sound velocity of the pipe material. M16 Select lining material. M17 Input sound velocity of the lining material. M18 Input the lining thickness. M19 Input the absolute roughness
+--------------------------------------------------
+
 [Source 2] TUF-2000-Series-User-Manual.pdf, p.3
-[Source 3] TUF-2000-Series-User-Manual.pdf, p.5
-[Source 4] TUF-2000-Series-User-Manual.pdf, p.34
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.25"
-10,table,What temperature range is listed for the TUF-2000 high-temperature clamp-on transducers?,-30 to 160 degrees C.,TUF-2000-Series-User-Manual(1).pdf,4,"ERROR: Traceback (most recent call last):
-  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 133, in <module>
-    answer_question("" "".join(sys.argv[1:]))
-    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 123, in answer_question
-    print(response.message.content)
-    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Python314\Lib\encodings\cp1252.py"", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2103' in position 9: character maps to <undefined>
-",ERROR,
-11,table,Which TUF-2000 menu displays today’s total NET flow?,M09.,TUF-2000-Series-User-Manual(1).pdf,15,M09 [Source 1],NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.15
-[Source 2] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
 [Source 3] TUF-2000-Series-User-Manual.pdf, p.14
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 6. Display and Operation 6.1 Display and keyboard Display is 2×20 characters LCD with back light, available to set back light time and contrast.  16-key Keyboard 0 - 9 and . are used for inputting numbers or menu numbers. ◄is used for back left or delete the left character. ▲/+ and ▼/- are used for entering into the last and next menu. Also can be used as ± sign when inputting numbers. MENU is used for accessing the menu. Press this key first, then type the number keys to enter into the matched menu. ENT is the ENTER key, used for confirming the contents Separated Mounting you input or choose.  4-key Keyboard TUF-2000M TUF-2000F MENU : used for entering into menus. ▲: used for menu up or choosing 0-9, +, - □►: used for menu down or moving the cursor to next. ENT : used for finishing menu inputting or entering into sub menu. 6.2 Operation The user interface of this flow meter comprises about 100 different menu windows that are numbered by M00, M01,
+--------------------------------------------------
+
 [Source 4] TUF-2000-Series-User-Manual.pdf, p.20
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.20"
-12,table,What server address and port are listed for the Bove Alpaca-E packet forwarder?,"is0.bovetech.com, port 1780 for both uplink and downlink.",Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,6,"[Source 1]
-The server address is ""is0.bovetech.com"" and the port is 1780.",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+window but a command to copy the current display window. By default, the produced data will be directed to the internal serial bus (thermal printer). You can also direct those data to the serial communication port. M99 By use of the window copying function, you can hardcopy very window displaying manually by switching windows, or you can obtain the window displaying data by communication. Browse the 32 recorded instrument power-on and power-off date and time with the flow M+0 rate at the time of power on and off Displays the total working time of the flow meter. M+1 When the backup battery is removed, the total working time will be reset to zero. M+2 Displays the last power-off date and time M+3 Displays the last power-off flow rate M+4 Displays how many times of has been powered on and powered off. A scientific calculator for the convenience of field working. All the values are in single accuracy. M+5 The calculator can be used while the flow meter is conducting flow measurement. Wate
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.20
+PASSAGE:
+in this function. Set fluid sound speed threshold Whenever the estimated sound speed (displayed in M92) exceeds this threshold, an alarms M+6 signal will be generated and can transmitted to BUZZER or OCT or RELAY. This function can used to produce an alarm or output when fluid material changes. M+7 Displays total flow for this month(only for the time past) M+8 Displays total flow for this year(only for the time past) Display the not-working total time in seconds. The total failure timer will also include the M+9 time when power off, if the back-up battery is applied. M.2 Entry to solidify the zero point. password protected. Setup the Q value threshold. M.5 If the present Q is below this threshold, flow rate will be set to 0. This function is useful when flow meter is installed in noisy environment or on airy pipes. M.8 The maximum flow rates for today and this month. 19
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.17
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Display analog inputs, AI5, current value and its corresponding temperature or pressure or M53 liquid level value. M54 Pulse width setup for the OCT (OCT1) output. Range from 6 mS to 1000 mS M55 Select analog output (4-20mA current loop, or CL) mode. Set the value which corresponds to 4mA or 0mA output current (4mA or 0mA is M56 determined by the setting in M55) M57 Set the value which corresponds to 20mA output current Current loop verification M58 Check if the current loop is calibrated correctly. M59 Display the present output current of current loop circuit. M60 Setup system date and time. Press ENT for modification. Display Version information and Electronic Serial Number (ESN) that is unique for each M61 flow meter. RS-232/RS485 setup. All the devices connected with flow meter should have matched M62 serial configuration. Select communication protocol. Factory default is ‘MODBUS ASCII. this is a mode for MODBUS-ASCII, Meter-BUS, M63 Fuji Exten
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.16
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Setup a signal strength as empty pipe. For example input 65, it means the pipe is treated as M29 empty pipe when the signal is less than 65, and the flow rate display is 0. M30 Select metric or British system unit. M31 Select flow rate unit. M32 Select totalizer flow unit. Select totalizer multiple factor. M33 The multiplying factor ranges from 0.001 to 10000. Factory default is 1 M34 Turn on or turn off the NET totalizer M35 Turn on or turn off the POS (positive) totalizer M36 Turn on or turn off the NEG(negative) totalizer M37 Restore factory settings. Totalizer reset. Manual totalizer used for easier calibration. Press a key to start and press a key to stop the M38 manual totalizer. M39 Language selection. there are Chinese+English+Italian or English+Italian+Turkish Damping factor. The damping factor ranges from 0 to 999 seconds. *M40 0 means there is no damping. Factory default is 10 seconds *M41 Cut-off low flow rate (or zero flow rate) to avoi
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.7
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  DIN-rail mounting by using PCB bracket Converter of TUF-2000B can be installed on the wall or in distribution box and explosion-proof box  TUF-2000B Wiring Diagram 6
+--------------------------------------------------"
+12,table,What server address and port are listed for the Bove Alpaca-E packet forwarder?,"is0.bovetech.com, port 1780 for both uplink and downlink.",Walrus OD Gateway_User Guide_Bove Technology_V1.1.0(1).pdf,6,"According to [Source 1], the server address for the Bove Alpaca-E packet forwarder is ""is0.bovetech.com"" and the port is 1780 (downlink and uplink are the same). [Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, page 6",NEEDS_REVIEW,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+ want to provide LoRaWAN services to the company's servers, you can close the Iotsquare Bridge and connect to the server using the standard Packet forwarder. 4 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.8
+PASSAGE:
+Note: Add APN needs to confirm the information on the picture with the operator. 3.5.4. RSSH Operation 1) RSSH is an auxiliary tool used by the company to remotely manage devices. After launching the tool, the device will connect to the specified server and generate a port number. 2) The user can provide the port number to the company's technical support for remote debugging or troubleshooting of the device. 3.5.5. Ping / Traceroute / Host Using network tools to check the network status. 6 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.3"
-13,exact_term,What does AT+RDMETER=UL do?,Triggers meter reporting; the documented return is +RDMETER: UL.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,9,Not found in the documents.,NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.4
-[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.27
-[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
-[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.29"
-14,exact_term,What does TUF-2000 menu M63 configure and what is its factory default?,M63 selects communication protocol; factory default is MODBUS ASCII.,TUF-2000-Series-User-Manual(1).pdf,17,[Source 3] M63 configures the communication protocol. The factory default is 'MODBUS ASCII'.,NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.3
+PASSAGE:
+1. PARAMETER CONFIG (1) Connect the infrared to computer and put the infrared on the meter’s infrared port. (2) Open the software “BOVE IOT DEBUG” (3) Check the COM port setting and open it 1 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.6
+PASSAGE:
+application is in sup low power. Only after the terminal uplink, the server can do the downlink. Class B: Two-way communication terminal device with preset receiving slot. These terminals will open all the extra receive windows in preset time. In this way the reserve know the terminal is receiving data. Class C: Two-way communication terminal device with the biggest receiving slot. These devices are always open to the receive window, so the power is high. Function AT command transmission AT command return +CLASS A /+CLASS B Read the mode AT+CLASS /CLASS C Change the mode in AT+CLASS=A +CLASS A class A Change the mode in AT+CLASS=B +CLASS B class B Change the mode in AT+CLASS=C +CLASS C class C 2.4.DR Use LoRaWAN defined DRx to set data rate of LoRaWAN AT modem. Function AT command transmission AT command return +DR: DR0 (ADR DR2) +DR: EU868 DR2 SF10 BW125K Read the band AT+DR +DR: EU868 DR0 SF12 BW125K (ADR means Rate adaptation) Set the band in AT+DR=EU868/IN865/AS923/A +DR: EU868/ +D
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
+[Source 8] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.11
+PASSAGE:
+3. WIRELESS FUNCTION 3.1.TIME SYNCHRONIZATION Meter will request time synchronization from Network Server for every 7 days. 3.2.DATA UPLINK In class A mode, meter can uplink by two ways. • Interval • Timepoint Refer to chapter 2.8. & 2.10. 3.3.ACK ACK function (ULCONFIRM) is optional but in real installation not suggested. Because each installation position has different signal strength which may lead to bigger power consumption (when ACK turns on). Refer to chapter 2.7. 4. PAYLOAD Definition of lower byte priority Hereafter if one data field uses “lower byte priority” format, it should follow the below rule to decode. Data 0x (12 34 56 78) 1st transform to correct hexadecimal order: 0x (78 56 34 12) Decode 2nd transform to decimal number by BCD rule: 78563412 Definition of unit indicator Unit Description 0X2B 0.001m³ 0X2C 0.01m³ 0X2D 0.1m³ 0X2E 1m³ 0X35 0.0001m³ 4.1 UPLINK PAYLOAD 4.1.1 The serial number uplink for water meter (port 25) The definition of the data frame Field Byte Coun
+--------------------------------------------------"
+13,exact_term,What does AT+RDMETER=UL do?,Triggers meter reporting; the documented return is +RDMETER: UL.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,9,"According to [Source 2], page 27, the function of the command ""AT+RDMETER: UL"" is to query the uplink interval. 
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, page 27
+6.5 TRIGGER Check again on chapter 6.3 & 6.4, then turn to home page of APP and click command button. The response would be shown in receive terminal, check the return in below table. Function Return (ASCII) Trigger +RDMETER: UL +PERIOD: INTERVAL,*** Query interval NOTE: unit of interval is minute",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.4
+PASSAGE:
+(4) Select the command example “AT+ID” to read the “DevEui” of the meter by “Send” (5) Use optical head to force the meter to send data, select the command “AT+RDMETER” and type in “UL” (6) More AT commands please reference Part 2. 2 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.27
+PASSAGE:
+6.5 TRIGGER Check again on chapter 6.3 & 6.4, then turn to home page of APP and click command button. The response would be shown in receive terminal, check the return in below table. Function Return (ASCII) Trigger +RDMETER: UL +PERIOD: INTERVAL,*** Query interval NOTE: unit of interval is minute 25 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 3] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.8
+PASSAGE:
+2.7.ULCONFIRM Function AT command transmission AT command return Enable the data transmission is AT+ULCONFIRMED=ON +ULCONFIRMED: ON confirmed Disable the data transmission is AT+ULCONFIRMED=OFF +ULCONFIRMED: OFF confirmed Note: if enable the data transmission which is confirmed. The data uplink will with a data downlink. So if the meter does not receive the downlink it would uplink again (maximum 3 times). If disable the data transmission which is confirmed. So when the data uplink, it won’t with a downlink. In default, it’s off. 2.8.INTERVAL Function AT command transmission AT command return Query the uplink AT+PERIOD=INTERVAL +PERIOD: INTERVAL, 240 interval cycle Set the uplink AT+PERIOD=INTERVAL,100 +PERIOD: INTERVAL, 100 interval cycle (unit: min) Disable the interval AT+PERIOD=INTERVAL,OFF +PERIOD: INTERVAL, OFF uplink function Note: when you set the report interval time it will be on. 2.9.MODE The way to join the server. Function AT command transmission AT command return Query th
+--------------------------------------------------
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.29
+PASSAGE:
+* Updated the AT command: remove “AT+JOIN”/ “AT+TEMP” Add “AT+RILINK”/ “AT+VER” *Chapter 3.2 Index Content Changes *Updated meter ST1&ST2 description V1.0.11 2021/11/10 * Updated the start byte of water meter with pressure sensor. V1.0.10 2021/10/15 * Added 3rd level title to the contents; * Removed RTC bytes in the payload of pressure sensor uplink; * Added LoRaWAN battery level byte in the payload of pressure sensor uplink. V1.0.9 2021/09/29 * Added checksum byte in totalizer uplink (heat meter) V1.0.8 2021/4/30 * Updated ST bits for heat meter * Added unit indicator + Updated “AT+JOIN” command V1.0.7 2021/11/11 * Added uplink payload of pressure sensor (water meter) * Added lower byte priority definition V1.0.6 2021/9/09 * Updated error bits definitions * Added trigger via android V1.0.5 2021/4/28 * Corrected the decoding for ""meter reading"" * Changed information to new address and TEL. V1.0.4 2021/10/26 * Added LoRaWAN heat meter payload 27 / 27 Copyright© 2024 Bove Intelligent Tec
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.10
+PASSAGE:
+ion AT+VER=FULL +VER: 1.1.12, 1.0, ""RHF1S0X1"", ""Dec 30 2020 10:34:12"" Check the version AT+VER +VER:1.1.12 2.17. RESET Reset LoRaWAN network, the device will auto join after reset Function AT command transmission AT command return RESET AT+RESET +RESET: OK 2.18. RELAY Only for the meter with relay function Function AT command transmission AT command return RELAY OPEN AT+RELAY=SLAVE +RELAY: SLAVE RELAY CLOSE AT+RELAY=OFF +RELAY: OFF 8 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 7] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.6
+PASSAGE:
+3/ +DR: AU915/ +DR: CN470/ AS923/ AU915/ And so on. +DR EU433 EU433 And so on. e.g. +DR: DR1 Set the data rate AT+DR=DR1 +DR: EU868 DR1 SF11 BW125K 2.5.ADR Set ADR function of LoRaWAN module. Function AT command transmission AT command return Enable ADR function AT+ADR=ON +ADR: ON Disable ADR AT+ADR=OFF +ADR: OFF Check current ADR AT+ADR +ADR: ON/ +ADR: OFF configuration Note: if you want to fix the data rate you need to disable the ADR function. 4 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 8] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.10
+PASSAGE:
+For the communication between the HHU and the meter, set the HHU function of the meter to turn on and off, and configure the parameters. Function AT command transmission AT command return +RILINK: STAT, MASTER/OFF, AT+RILINK=STAT Check the RILINK cadcnt, wscnt, ulcnt, dlcnt state e.g. +RILINK: STAT, OFF, 100, 17, 2, 2 +RILINK: MASTER Set the RILINK on AT+RILINK=MASTER +RILINK: OFF Set the RILINK off AT+RILINK=OFF +RILINK: CFG, ch_hz, ch_dr, cadp, Check the CFG AT+RILINK=CFG rxdelay parameter e.g. +RILINK: CFG, 866550000, 3, 3, 1500 +RILINK: CFG, 866550000, 3, 3, Configure CFG AT+RILINK=CFG,86 1500 parameter 6.55, 3, 3, 1500 Note: 1.Configure CFG parameter 866.55 the unit is MHZ; In order to ensure the communication distance between the HHU and the water meter and the service life of the water meter, it is recommended that ch_hz be set to 3 2. CFG parameter must be same as the HHU, or the HHU can’t read the meter. 2.16. VER Get the information of the module version. Function AT command 
+--------------------------------------------------"
+14,exact_term,What does TUF-2000 menu M63 configure and what is its factory default?,M63 selects communication protocol; factory default is MODBUS ASCII.,TUF-2000-Series-User-Manual(1).pdf,17,"According to [Source 3], page 17, menu M63 is used to ""Select communication protocol. Factory default is ‘MODBUS ASCII. this is a mode for MODBUS-ASCII, Meter-BUS, M63 Fuji Extended Protocol, Huizhong’s various protocols. If you are going using MODBUS-RTU you have to select ‘MODBUS_RTU’.""
+
+Therefore, the TUF-2000 menu M63 configures the communication protocol, and its factory default is MODBUS ASCII.",NEEDS_REVIEW,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
 [Source 2] TUF-2000-Series-User-Manual.pdf, p.14
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 6. Display and Operation 6.1 Display and keyboard Display is 2×20 characters LCD with back light, available to set back light time and contrast.  16-key Keyboard 0 - 9 and . are used for inputting numbers or menu numbers. ◄is used for back left or delete the left character. ▲/+ and ▼/- are used for entering into the last and next menu. Also can be used as ± sign when inputting numbers. MENU is used for accessing the menu. Press this key first, then type the number keys to enter into the matched menu. ENT is the ENTER key, used for confirming the contents Separated Mounting you input or choose.  4-key Keyboard TUF-2000M TUF-2000F MENU : used for entering into menus. ▲: used for menu up or choosing 0-9, +, - □►: used for menu down or moving the cursor to next. ENT : used for finishing menu inputting or entering into sub menu. 6.2 Operation The user interface of this flow meter comprises about 100 different menu windows that are numbered by M00, M01,
+--------------------------------------------------
+
 [Source 3] TUF-2000-Series-User-Manual.pdf, p.17
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Display analog inputs, AI5, current value and its corresponding temperature or pressure or M53 liquid level value. M54 Pulse width setup for the OCT (OCT1) output. Range from 6 mS to 1000 mS M55 Select analog output (4-20mA current loop, or CL) mode. Set the value which corresponds to 4mA or 0mA output current (4mA or 0mA is M56 determined by the setting in M55) M57 Set the value which corresponds to 20mA output current Current loop verification M58 Check if the current loop is calibrated correctly. M59 Display the present output current of current loop circuit. M60 Setup system date and time. Press ENT for modification. Display Version information and Electronic Serial Number (ESN) that is unique for each M61 flow meter. RS-232/RS485 setup. All the devices connected with flow meter should have matched M62 serial configuration. Select communication protocol. Factory default is ‘MODBUS ASCII. this is a mode for MODBUS-ASCII, Meter-BUS, M63 Fuji Exten
+--------------------------------------------------
+
 [Source 4] TUF-2000-Series-User-Manual.pdf, p.15
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.14"
-15,exact_term,What does AT+MODE=LWABP configure?,Sets the LoRaWAN module to ABP joining mode; returns +MODE: LWABP.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"[Source 1] According to page 8 of the document, AT+MODE=LWABP sets the mode in ABP (Activation By Personalization).",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
-[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.6
-[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
-[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.8
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5"
-16,revision,"According to the revision history, what changed from LoRaWAN protocol guide V1.1.1 to V1.1.2?",V1.1.2 updated the field format and the return of AT+CLASS.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,"ERROR: Traceback (most recent call last):
-  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 133, in <module>
-    answer_question("" "".join(sys.argv[1:]))
-    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Users\Admin\OneDrive\Desktop\PwC_AI_Assignment\rag_ask.py"", line 123, in answer_question
-    print(response.message.content)
-    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Python314\Lib\encodings\cp1252.py"", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2265' in position 260: character maps to <undefined>
-",ERROR,
-17,revision,What additions are recorded in LoRaWAN protocol guide V1.1.1 compared with V1.1.0?,V1.1.1 added the AT command RELAY and a 12logs meter payload; it also updated field format and ST bits and renamed B95 VPW to B97 VPW.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,Not found in the documents.,NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.1
-[Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
-[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
-[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.29"
+PASSAGE:
+>> Ultrasonic Flow meter User Manual 6.3 Menu Details Menu No. Details M00 Display flow rate and NET totalizer. Unit selection in M30~M32. M01 Display flow rate and velocity. Unit selection in M30~M32. M02 Display flow rate and POS(positive) totalizer. Unit selection in M30~M32. M03 Display flow rate and NEG(negative) totalizer.Unit selection in M30~M32. M04 Display date and time, flow rate. M05 Display heat flow rate and total heat. Unit selection in M84 and M88. M06 Display temperatures, inlet T1, outlet T2 M07 Display analog inputs, AI3/AI4 M08 Display system error codes. ‘R’ stands for normal. M09 Display today’s total NET flow M10 Input outer perimeter. *M11 Input outer diameter. Available range is 0 to 18000mm. *M12 Input pipe wall thickness *M13 Input inner diameter. *M14 Select pipe material. M15 Input sound velocity of the pipe material. M16 Select lining material. M17 Input sound velocity of the lining material. M18 Input the lining thickness. M19 Input the absolute roughness
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.14
+PASSAGE:
+, and follow the two-digit number keys. Take M35 as an example, the correct key sequence is MENU 3 5 To move between the adjacent menus, press ▲/+ and ▼/- for 16-key keyboard; press ▲and □►for 4-key keyboard. 13
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.17
+PASSAGE:
+ are going using MODBUS-RTU you have to select ‘MODBUS_RTU’. AI3 value range. M64 Used to enter temperature/pressure values that are corresponding to 4mA and 20mA input current. The display values have no unit, so that they can present any physical parameter. AI4 value range. M65 Used to enter temperature/pressure values that are corresponding to 4mA and 20mA input current. AI5 value range. M66 Used to enter temperature/pressure values that are corresponding to 4mA and 20mA input current. Setup the frequency range (lower and upper limit) for the frequency output function. Valid M67 range is 0Hz-9999Hz. Factory default value is 0-1000 Hz. Setup the minimum flow rate value which corresponds to the lower frequency limit of the M68 frequency output. Setup the maximum flow Rate value that corresponds to the upper frequency limit of the M69 frequency output. M70 LCD display back light control. M71 LCD contrast control. Working timer. It can be cleared by pressing ENT key, and then select YES
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.22
+PASSAGE:
+the pipe material, and then press ENT key. 4.Press key ▼/- to enter M16 window, press ENT key to enter the option selection mode. Use keys ▲/+ and ▼/- to select the liner material, and then press ENT key. Select “No Liner”, if there is no liner. 5.Press key ▼/- to enter M20 window, press ENT key to enter the option selection mode. Use keys ▲/+ and ▼/- to select the proper liquid, and then press ENT key. 6.Press key ▼/- to enter M23 window, press ENT key to enter the option selection mode. Use keys ▲/+ and ▼/- to select the proper transducer type, and then press ENT key. 7.Press key ▼/- to enter M24 window, press ENT key to enter the option selection mode. Use keys ▲/+ and▼/- to select the proper transducer mounting method, and then press ENT key. 8.Press key ▼/- to enter M25 window and get the transducer installation distance. 9.Press MENU 2 6 to store the parameters setup. 21
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.9
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  TUF-2000U Installation and Wiring Diagram 4.2 Fix mounting  TUF-2000F2 Installation and Wiring Diagram The converter is generally installed on the pipeline, sometimes installed in the water. 8
+--------------------------------------------------"
+15,exact_term,What does AT+MODE=LWABP configure?,Sets the LoRaWAN module to ABP joining mode; returns +MODE: LWABP.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,8,"According to [Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, page 8, the passage states:
+
+""Set the mode in ABP AT+MODE=LWABP +MODE: LWABP""
+
+This indicates that AT+MODE=LWABP configures the mode to ABP (Activation by Personalization).
+
+[Source 1] [Source 2] [Source 3] [Source 4] [Source 5] [Source 6] [Source 7] [Source 8]",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.8
+PASSAGE:
+DE=LWOTAA +MODE: LWOTAA OTAA Set the mode in ABP AT+MODE=LWABP +MODE: LWABP 2.10. TIMEPOINT Function AT command transmission AT command return Query the uplink AT+PERIOD=TIMEPOINT +PERIOD: TIMEPOINT, 23:30 timepoint 6 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 3] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.8
+PASSAGE:
+2.7.ULCONFIRM Function AT command transmission AT command return Enable the data transmission is AT+ULCONFIRMED=ON +ULCONFIRMED: ON confirmed Disable the data transmission is AT+ULCONFIRMED=OFF +ULCONFIRMED: OFF confirmed Note: if enable the data transmission which is confirmed. The data uplink will with a data downlink. So if the meter does not receive the downlink it would uplink again (maximum 3 times). If disable the data transmission which is confirmed. So when the data uplink, it won’t with a downlink. In default, it’s off. 2.8.INTERVAL Function AT command transmission AT command return Query the uplink AT+PERIOD=INTERVAL +PERIOD: INTERVAL, 240 interval cycle Set the uplink AT+PERIOD=INTERVAL,100 +PERIOD: INTERVAL, 100 interval cycle (unit: min) Disable the interval AT+PERIOD=INTERVAL,OFF +PERIOD: INTERVAL, OFF uplink function Note: when you set the report interval time it will be on. 2.9.MODE The way to join the server. Function AT command transmission AT command return Query th
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.6
+PASSAGE:
+application is in sup low power. Only after the terminal uplink, the server can do the downlink. Class B: Two-way communication terminal device with preset receiving slot. These terminals will open all the extra receive windows in preset time. In this way the reserve know the terminal is receiving data. Class C: Two-way communication terminal device with the biggest receiving slot. These devices are always open to the receive window, so the power is high. Function AT command transmission AT command return +CLASS A /+CLASS B Read the mode AT+CLASS /CLASS C Change the mode in AT+CLASS=A +CLASS A class A Change the mode in AT+CLASS=B +CLASS B class B Change the mode in AT+CLASS=C +CLASS C class C 2.4.DR Use LoRaWAN defined DRx to set data rate of LoRaWAN AT modem. Function AT command transmission AT command return +DR: DR0 (ADR DR2) +DR: EU868 DR2 SF10 BW125K Read the band AT+DR +DR: EU868 DR0 SF12 BW125K (ADR means Rate adaptation) Set the band in AT+DR=EU868/IN865/AS923/A +DR: EU868/ +D
+--------------------------------------------------
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+ction AT command transmission AT command return Change network +KEY: NWKSKEY AT+KEY=NWKSKEY,“16 bytes session key xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx: length key” (NWKSKEY) xx:xx:xx Change application +KEY: APPSKEY AT+KEY=APPSKEY,“16 bytes session key xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx: length key” (APPSKEY) xx:xx:xx Change application +KEY: APPKEY AT+KEY=APPKEY,“16 bytes session key xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx: length key” (APPKEY) xx:xx:xx 2.3.CLASS The mode of module. Class A: two-way communication terminal device. Allow two-way communicate, each terminal uplink will be accompanied by 2 downlink receive window. In this mode, the 3 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 6] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
+[Source 8] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.10
+PASSAGE:
+ion AT+VER=FULL +VER: 1.1.12, 1.0, ""RHF1S0X1"", ""Dec 30 2020 10:34:12"" Check the version AT+VER +VER:1.1.12 2.17. RESET Reset LoRaWAN network, the device will auto join after reset Function AT command transmission AT command return RESET AT+RESET +RESET: OK 2.18. RELAY Only for the meter with relay function Function AT command transmission AT command return RELAY OPEN AT+RELAY=SLAVE +RELAY: SLAVE RELAY CLOSE AT+RELAY=OFF +RELAY: OFF 8 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------"
+16,revision,"According to the revision history, what changed from LoRaWAN protocol guide V1.1.1 to V1.1.2?",V1.1.2 updated the field format and the return of AT+CLASS.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,"According to [Source 5], the revision history for LoRaWAN protocol guide V1.1.2, the changes from V1.1.1 to V1.1.2 are:
+
+* Updated field format
+* Added AT command RELAY
+* Added 12logs meter payload
+* Updated ST bit of BECO X/ B6 Lite VW/ B9 VW/ B91VPW(≥DN50)/ B39 VM- W
+* B95 VPW changed to B97 VPW
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, page 28",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN AT Command / Payload Protocol www.bovetech.com
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.29
+PASSAGE:
+* Updated the AT command: remove “AT+JOIN”/ “AT+TEMP” Add “AT+RILINK”/ “AT+VER” *Chapter 3.2 Index Content Changes *Updated meter ST1&ST2 description V1.0.11 2021/11/10 * Updated the start byte of water meter with pressure sensor. V1.0.10 2021/10/15 * Added 3rd level title to the contents; * Removed RTC bytes in the payload of pressure sensor uplink; * Added LoRaWAN battery level byte in the payload of pressure sensor uplink. V1.0.9 2021/09/29 * Added checksum byte in totalizer uplink (heat meter) V1.0.8 2021/4/30 * Updated ST bits for heat meter * Added unit indicator + Updated “AT+JOIN” command V1.0.7 2021/11/11 * Added uplink payload of pressure sensor (water meter) * Added lower byte priority definition V1.0.6 2021/9/09 * Updated error bits definitions * Added trigger via android V1.0.5 2021/4/28 * Corrected the decoding for ""meter reading"" * Changed information to new address and TEL. V1.0.4 2021/10/26 * Added LoRaWAN heat meter payload 27 / 27 Copyright© 2024 Bove Intelligent Tec
+--------------------------------------------------
+
+[Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.10
+PASSAGE:
+4. REVISION V1.1.0 2022/12/12 +Update the document format, change wifi configure pictures 8 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 5] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.28
+PASSAGE:
+REVISION V1.1.2 2024/1/17 *Updated field format *Updated the return of AT+CLASS V1.1.1 2023/2/21 *Updated field format *Added AT command RELAY *Added 12logs meter payload *Updated ST bit of BECO X/ B6 Lite VW/ B9 VW/ B91VPW(≥DN50)/ B39 VM- W *B95 VPW changed to B97 VPW V1.1.0 2022/11/23 *Updated the ST bit of B95 VPW, B91VPW, B39 VM-W V1.0.17 2022/10/20 *Updated the ST bit of B39 VW-M V1.0.16 2022/10/09 *Corrected the AT command FDEFAULT V1.0.15 2022/8/23 *Updated the document format V1.0.14 2022/8/15 * Updated the unit status V1.0.13 2022/7/26 * Updated the battery state V1.0.12 2022/7/11 26 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 6] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 7] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.9
+PASSAGE:
+Set the uplink AT+PERIOD=TIMEPOINT,”18:20” +PERIOD: TIMEPOINT, 18:20, 17:50 timepoint Disable the timepoint AT+PERIOD=TIMEPOINT,OFF +PERIOD: TIMEPOINT, OFF uplink function Note: 1. In “Set the uplink timepoint” the return “+PERIOD: TIMEPOINT, 18:20, 17:50” 17:50 is the real uplink timepoint. 2. When you set the uplink timepoint, you will enable the timepoint uplink function. 2.11. FDEFAULT Set the device to factory default mode, all the parameters will be changed. Function AT command transmission AT command return To initialize the module AT+FDEFAULT +FDEFAULT: OK 2.12. RDMETER Analog trigger reporting, the same as trigger the hall to report. Function AT command transmission AT command return Trigger reporting AT+RDMETER=UL +RDMETER: UL 2.13. RTC Get real time from LoRaWAN modem. When modem is powered on, it always starts from 2000-01-01 00:00:00, user could set new time to modem to sync to the real time. Function AT command transmission AT command return Check current time AT+RTC +RTC
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------"
+17,revision,What additions are recorded in LoRaWAN protocol guide V1.1.1 compared with V1.1.0?,V1.1.1 added the AT command RELAY and a 12logs meter payload; it also updated field format and ST bits and renamed B95 VPW to B97 VPW.,Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2(1).pdf,28,"According to [Source 6], page 28, the additions in LoRaWAN protocol guide V1.1.1 compared with V1.1.0 are:
+
+* Updated field format
+* Added AT command RELAY
+* Added 12logs meter payload
+* Updated ST bit of BECO X/ B6 Lite VW/ B9 VW/ B91VPW(≥DN50)/ B39 VM-W
+* B95 VPW changed to B97 VPW
+
+[Source 6] [Source N: 6]",NEEDS_REVIEW,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN AT Command / Payload Protocol www.bovetech.com
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.29
+PASSAGE:
+* Updated the AT command: remove “AT+JOIN”/ “AT+TEMP” Add “AT+RILINK”/ “AT+VER” *Chapter 3.2 Index Content Changes *Updated meter ST1&ST2 description V1.0.11 2021/11/10 * Updated the start byte of water meter with pressure sensor. V1.0.10 2021/10/15 * Added 3rd level title to the contents; * Removed RTC bytes in the payload of pressure sensor uplink; * Added LoRaWAN battery level byte in the payload of pressure sensor uplink. V1.0.9 2021/09/29 * Added checksum byte in totalizer uplink (heat meter) V1.0.8 2021/4/30 * Updated ST bits for heat meter * Added unit indicator + Updated “AT+JOIN” command V1.0.7 2021/11/11 * Added uplink payload of pressure sensor (water meter) * Added lower byte priority definition V1.0.6 2021/9/09 * Updated error bits definitions * Added trigger via android V1.0.5 2021/4/28 * Corrected the decoding for ""meter reading"" * Changed information to new address and TEL. V1.0.4 2021/10/26 * Added LoRaWAN heat meter payload 27 / 27 Copyright© 2024 Bove Intelligent Tec
+--------------------------------------------------
+
+[Source 3] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.10
+PASSAGE:
+4. REVISION V1.1.0 2022/12/12 +Update the document format, change wifi configure pictures 8 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.28
+PASSAGE:
+REVISION V1.1.2 2024/1/17 *Updated field format *Updated the return of AT+CLASS V1.1.1 2023/2/21 *Updated field format *Added AT command RELAY *Added 12logs meter payload *Updated ST bit of BECO X/ B6 Lite VW/ B9 VW/ B91VPW(≥DN50)/ B39 VM- W *B95 VPW changed to B97 VPW V1.1.0 2022/11/23 *Updated the ST bit of B95 VPW, B91VPW, B39 VM-W V1.0.17 2022/10/20 *Updated the ST bit of B39 VW-M V1.0.16 2022/10/09 *Corrected the AT command FDEFAULT V1.0.15 2022/8/23 *Updated the document format V1.0.14 2022/8/15 * Updated the unit status V1.0.13 2022/7/26 * Updated the battery state V1.0.12 2022/7/11 26 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------"
 18,not_found,What is the exact purchase price in Indian rupees of the Walrus-OD gateway in November 2026?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
 [Source 2] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.3
+PASSAGE:
+1. Preview Walrus-OD LoRaWAN gateway integrates a high-performance high-reliability ARM cortex A53, 1 or 2*SX1301 LoRa core processor, an LTE module, a GPS module, a Wi-Fi module, a temperature monitor, RTC, and a power management unit. Would have an internal battery for backup which could support over 5 hours duration without external power. Rather than logging into the gateway and doing operations with commands in the Linux environment, a web-based utility is built in which help customers use the device much easier. There are 4 antenna ports, an external power input port, an RJ45 port, and a USB debug port for the device. ANT1: LoRa antenna. ANT2: Back up. ANT3: GPS antenna. ANT4: Wi-Fi Antenna. ANT5: LTE Antenna. Power: External power supply input port, DC12 to 28V. RJ45: RJ45 port, Ethernet and PoE power injector. USB: USB port for debugging. 2. Gateway Management Connect Gateway’s Wi-Fi. The gateway’s name which likes “Walrus-OD_xxxxxx”, then fills in the password, the default for
+--------------------------------------------------
+
 [Source 3] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------
+
 [Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
-[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.5"
-19,not_found,What is the serial number of the specific TUF-2000 meter installed at my building?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.3
-[Source 2] TUF-2000-Series-User-Manual.pdf, p.9
-[Source 3] TUF-2000-Series-User-Manual.pdf, p.7
-[Source 4] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.12
-[Source 5] TUF-2000-Series-User-Manual.pdf, p.19"
-20,not_found,What is the personal mobile phone number of the engineer who authored the LoRaWAN protocol guide?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.1
-[Source 2] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.17
-[Source 3] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.5
-[Source 4] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
-[Source 5] Protocol_LoRaWAN_User�Guide_Bove�Technology_V1.1.2.pdf, p.12"
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.5
+PASSAGE:
+3.3.LoRaWAN Config 3.3.1. Ambient Noise Scanning Enter band start frequency, end frequency, and step width. In this example, the test frequency is 868MHZ, so the frequency band setting is from 867 MHZ to 869 MHZ, and the step setting is 100KHZ. Click the Start Scanning to begin the ambient noise scanning Note: The ambient noise can’t be over -95dBm, normally -100dBm is the worst condition. For example if the value is -107dBm which is a good condition. If the result shows an ambient noise over -95dBm, you must change the installation place. Or the communication distance will be greatly reduced. So if the result is like this picture the gateway location is acceptable. 3 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 6] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.4
+PASSAGE:
+3.2.Device Info  External Power Status  Backup Battery Status  4G / LTE Status  Ethernet Status  GPS Status  Temperature Status  LoRa0 Status Note: The color shows blue is working normally, and the red is not working but has the function, the white means the gateway doesn’t have the function. 2 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 7] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.9
+PASSAGE:
+3.6.Download Log All the logs can be checked and downloaded here. 7 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------"
+19,not_found,What is the serial number of the specific TUF-2000 meter installed at my building?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] TUF-2000-Series-User-Manual.pdf, p.7
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  DIN-rail mounting by using PCB bracket Converter of TUF-2000B can be installed on the wall or in distribution box and explosion-proof box  TUF-2000B Wiring Diagram 6
+--------------------------------------------------
+
+[Source 2] TUF-2000-Series-User-Manual.pdf, p.3
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Welcome to use the new generation ultrasonic flow meter made of our patented technology. TUF-2000 Series Ultrasonic Flow/Heat Meters utilize the transit-time principle to measure the velocity of relatively clean liquids in full pipes. The purpose of this guide is to provide installation procedures and basic operating instructions for TUF-2000 Series Ultrasonic Flow/Heat Meters. Installation Procedure Connection of Check Components Choose Installation Points Set Parameter Converter and transducer Complete Converter Installation Check the installation transducer Installation 1. Products Categories 1.1 Composition of Ultrasonic flow meter Ultrasonic Flow meter = Converter + transducer Ultrasonic Heat meter = Converter + transducer + Temperature transducer 1.2 Types of Converters Separated Mount Items Wall Mount Wall mount Panel Mount Explosion proof Fix Mount Module TUF-2000F2 type TUF-2000B TUF-2000S TUF-2000U TUF-2000D TUF-2000M Picture 2
+--------------------------------------------------
+
+[Source 3] TUF-2000-Series-User-Manual.pdf, p.9
+PASSAGE:
+>> Ultrasonic Flow meter User Manual  TUF-2000U Installation and Wiring Diagram 4.2 Fix mounting  TUF-2000F2 Installation and Wiring Diagram The converter is generally installed on the pipeline, sometimes installed in the water. 8
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.12
+PASSAGE:
+Data length 1 - 0x0A Data identification 1 DI0 0x81 Data identification 1 DI1 0x0A Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: 830A810A0041370039007400 4.1.2 The serial number uplink for heat meter (port 25) The definition of the data frame Filed Byte Count Parameter Example Control code 1 - 0XA6 Data length 1 - 0x0A Data identification 1 DI0 0x01 Data identification 1 DI1 0x00 Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: A60A01000041370039007400 4.1.3 The totalizer uplink for water meter (port 25) The definition of the data frame: Filed Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x0A Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 1 Unit - 4 Current Lower byte priority Data field 1 ST1 - 1 ST2 
+--------------------------------------------------
+
+[Source 5] TUF-2000-Series-User-Manual.pdf, p.19
+PASSAGE:
+>> Ultrasonic Flow meter User Manual at 60 seconds long to get a 1% dose accuracy. View the daily, monthly and yearly flow totalizer and thermal energy totalizer value. M82 The totalizer values and errors for the last 64 days, 32 last 32 months and last 2 years are stored in the RAM memory, To view them, use the ‘ENT’ and ‘UP’ ‘Down’ keys. Automatic Amending Function for automatic offline compensation. Select ‘YES’ to enable this function, select ‘NO’ to disable it. When the function is enabled, The flow meter will estimate the average flow uncounted M83 (or ‘lost’) during the offline session and add the result to the totalizer. The estimation of the uncounted flow is made by computing the product of the offline time period and the average flow rate, which is the average of the flow rate before going offline and the one after going on line. Set the thermal energy unit: M84 0. GJ 1. KC 2.KWh 3. BTU Select temperature sources M85 0. from T1,T2 (factory default) 1. from AI3,AI4 Select the
+--------------------------------------------------
+
+[Source 6] TUF-2000-Series-User-Manual.pdf, p.21
+PASSAGE:
+>> Ultrasonic Flow meter User Manual M.9 Serial port tester with CMM command output for very second. M-0 Entry to hardware adjusting windows only for the manufacturer M-1 4-20mA output adjustment M-2 4mA calibration for AI3 input M-3 20mA calibration for AI3 input M-4 4mA calibration for AI4 input M-5 20mA calibration for AI4 input M-6 4mA calibration for AI5 input M-7 20mA calibration for AI5 input M-8 Lower Temperature Zero setup for the PT100 M-9 Higher Temperature Zero setup for the PT100 M-A Temperature Calibration at 50℃ M-B Temperature Calibration at 84.5℃ 20
+--------------------------------------------------
+
+[Source 7] TUF-2000-Series-User-Manual.pdf, p.20
+PASSAGE:
+window but a command to copy the current display window. By default, the produced data will be directed to the internal serial bus (thermal printer). You can also direct those data to the serial communication port. M99 By use of the window copying function, you can hardcopy very window displaying manually by switching windows, or you can obtain the window displaying data by communication. Browse the 32 recorded instrument power-on and power-off date and time with the flow M+0 rate at the time of power on and off Displays the total working time of the flow meter. M+1 When the backup battery is removed, the total working time will be reset to zero. M+2 Displays the last power-off date and time M+3 Displays the last power-off flow rate M+4 Displays how many times of has been powered on and powered off. A scientific calculator for the convenience of field working. All the values are in single accuracy. M+5 The calculator can be used while the flow meter is conducting flow measurement. Wate
+--------------------------------------------------
+
+[Source 8] TUF-2000-Series-User-Manual.pdf, p.17
+PASSAGE:
+>> Ultrasonic Flow meter User Manual Display analog inputs, AI5, current value and its corresponding temperature or pressure or M53 liquid level value. M54 Pulse width setup for the OCT (OCT1) output. Range from 6 mS to 1000 mS M55 Select analog output (4-20mA current loop, or CL) mode. Set the value which corresponds to 4mA or 0mA output current (4mA or 0mA is M56 determined by the setting in M55) M57 Set the value which corresponds to 20mA output current Current loop verification M58 Check if the current loop is calibrated correctly. M59 Display the present output current of current loop circuit. M60 Setup system date and time. Press ENT for modification. Display Version information and Electronic Serial Number (ESN) that is unique for each M61 flow meter. RS-232/RS485 setup. All the devices connected with flow meter should have matched M62 serial configuration. Select communication protocol. Factory default is ‘MODBUS ASCII. this is a mode for MODBUS-ASCII, Meter-BUS, M63 Fuji Exten
+--------------------------------------------------"
+20,not_found,What is the personal mobile phone number of the engineer who authored the LoRaWAN protocol guide?,Not found in the documents.,,,Not found in the documents.,PASS,"[Source 1] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN AT Command / Payload Protocol www.bovetech.com
+--------------------------------------------------
+
+[Source 2] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.17
+PASSAGE:
+Definition of LoRaWAN module battery state (more details refer to chapter 5.) Value Explain 0x00 Power supply 0x01-0xFE Electric quantity 0-100%: (Byte-1)/253*100% 0xFF Unknown For example: count number is 0, current consumption is 51m³, empty pipe, the LoRaWAN batter percentage is 50%. The data frame is: 81 0A 90 1F 00 2B 00 10 05 00 00 02 7F 4.1.4 The totalizer uplink for heat meter (port 25) Field Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x16 Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 4 Cold(0.01kWh) Lower byte priority 4 Heat(0.01kWh) Lower byte priority 4 Volume(0.01m³) Lower byte priority 2 T-in(0.01℃) Lower byte priority 2 T-out(0.01℃) Lower byte priority Data field 1 ST1 - 1 ST2 - Calculated from Checksum “Control code” to 1 “ST2” Sum of bytes modulo 256 LoRaWAN 1 Variable value Battery 15 / 27 Copyright© 2024 Bove Intelligent Technology Co.,
+--------------------------------------------------
+
+[Source 3] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.5
+PASSAGE:
+2. AT COMMAND The AT commands can set the parameter into the LoRaWAN module. 2.1.ID Use to check the ID of the LoRaWAN module, or change the ID. ID is treated as big endian numbers. Read ID Format: Function AT command transmission AT command return +ID: DevAddr, xx:xx:xx:xx Read all AT+ID +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Read DevAddr AT+ID=DevAddr +ID: DevAddr, xx:xx:xx:xx Read DevEui AT+ID=DevEui +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Read AppEui AT+ID=AppEui +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx Set new DevAddr AT+ID=DevAddr,""devaddr"" +ID: DevAddr, xx:xx:xx:xx Set new DevEui AT+ID=DevEui,""deveui"" +ID: DevEui, xx:xx:xx:xx:xx:xx:xx:xx Set new AppEui AT+ID=AppEui,""appeui"" +ID: AppEui, xx:xx:xx:xx:xx:xx:xx:xx 2.2.KEY Change LoRaWAN related AES-128 KEY. If wrong key is used, your LoRaWAN modem will be rejected by LoRaWAN server. Contact server administrator to know what key should use. All KEYs are unreadable to be read for security, the one who forge
+--------------------------------------------------
+
+[Source 4] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.12
+PASSAGE:
+Data length 1 - 0x0A Data identification 1 DI0 0x81 Data identification 1 DI1 0x0A Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: 830A810A0041370039007400 4.1.2 The serial number uplink for heat meter (port 25) The definition of the data frame Filed Byte Count Parameter Example Control code 1 - 0XA6 Data length 1 - 0x0A Data identification 1 DI0 0x01 Data identification 1 DI1 0x00 Count number 1 - 0x00~0xFF Data field 7 Meter number Lower byte priority For example: count number is 00, the meter number is 00740039003741 The data frame is: A60A01000041370039007400 4.1.3 The totalizer uplink for water meter (port 25) The definition of the data frame: Filed Byte Count Parameter Example Control code 1 - 0x81 Data length 1 - 0x0A Data identification 1 DI0 0x90 Data identification 1 DI1 0x1F Count number 1 - 0x00~0xFF 1 Unit - 4 Current Lower byte priority Data field 1 ST1 - 1 ST2 
+--------------------------------------------------
+
+[Source 5] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.6
+PASSAGE:
+3.3.2. Packet Forwarder Standard LoRaWAN packet forwarder SDK Desc: SDK description Gateway ID: gateway ID Server Address: network server address Server Port: server port Global Configuration: gateway type (frequency) and frequency plan selection Note: use Bove Alpaca-E platform, the server address is “is0.bovetech.com”, the port is 1780 (downlink and uplink are same) 3.3.3. Other Network Server Instead of standard packet forward, Walrus-OD Gateway also supports different network servers: iotsquare, OrbiWise, loriot, Alit LinkWAN. 3.4.Server Config 1) Iotsquare Bridge is a program that integrates device management and LoRaWAN data forwarding. The system starts the program by default and connects to the BOVE Iotsquare server. 2) When the device does not launch the Iotsquare SDK, the program is only used to manage the device; when the device starts the Iotsquare SDK, the program can be used to manage the device and forward LoRaWAN data. 3) If users do not want to use the device managemen
+--------------------------------------------------
+
+[Source 6] Protocol_LoRaWAN_User Guide_Bove Technology_V1.1.2.pdf, p.29
+PASSAGE:
+* Updated the AT command: remove “AT+JOIN”/ “AT+TEMP” Add “AT+RILINK”/ “AT+VER” *Chapter 3.2 Index Content Changes *Updated meter ST1&ST2 description V1.0.11 2021/11/10 * Updated the start byte of water meter with pressure sensor. V1.0.10 2021/10/15 * Added 3rd level title to the contents; * Removed RTC bytes in the payload of pressure sensor uplink; * Added LoRaWAN battery level byte in the payload of pressure sensor uplink. V1.0.9 2021/09/29 * Added checksum byte in totalizer uplink (heat meter) V1.0.8 2021/4/30 * Updated ST bits for heat meter * Added unit indicator + Updated “AT+JOIN” command V1.0.7 2021/11/11 * Added uplink payload of pressure sensor (water meter) * Added lower byte priority definition V1.0.6 2021/9/09 * Updated error bits definitions * Added trigger via android V1.0.5 2021/4/28 * Corrected the decoding for ""meter reading"" * Changed information to new address and TEL. V1.0.4 2021/10/26 * Added LoRaWAN heat meter payload 27 / 27 Copyright© 2024 Bove Intelligent Tec
+--------------------------------------------------
+
+[Source 7] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.7
+PASSAGE:
+3.5.WIFI Config 3.5.1. WIFI Config IP Address: gateway management address WIFI Name: gateway wifi name WIFI Password: gateway wifi password Note: the parameters can be changed. 3.5.2. IP Config The default network protocol is DHCP. 3.5.3. APN Config Walrus-OD gateway has many built-in APN settings. In case of customer’s APN is not included, gateway supports add APN operation. 5 / 8 Copyright© 2024 Bove Intelligent Technology Co., Ltd
+--------------------------------------------------
+
+[Source 8] Walrus OD Gateway_User Guide_Bove Technology_V1.1.0.pdf, p.1
+PASSAGE:
+User Guide LoRaWAN Walrus-OD Gateway www.bovetech.com
+--------------------------------------------------"

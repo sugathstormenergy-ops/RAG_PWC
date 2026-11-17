@@ -4,7 +4,19 @@ import sys
 import chromadb
 from ollama import chat, embed
 from rank_bm25 import BM25Okapi
+import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(
+        encoding="utf-8",
+        errors="replace"
+    )
+
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(
+        encoding="utf-8",
+        errors="replace"
+    )
 DB_PATH = "data/chroma"
 CHAT_MODEL = "llama3.1:8b"
 EMBED_MODEL = "nomic-embed-text"
@@ -13,11 +25,23 @@ client = chromadb.PersistentClient(path=DB_PATH)
 collection = client.get_collection("engineering_documents")
 
 
+
 def tokenize(text):
-    return re.findall(r"[a-z0-9]+(?:[.-][a-z0-9]+)*", text.lower())
+    text = text.lower()
+
+    # Keep complete engineering identifiers.
+    tokens = re.findall(
+        r"[a-z0-9]+(?:[+._=/:-][a-z0-9]+)*",
+        text
+    )
+
+    # Also index their individual components.
+    parts = re.findall(r"[a-z0-9]+", text)
+
+    return tokens + parts
 
 
-def search(question, top_k=5):
+def search(question, top_k=8):
     all_data = collection.get(
         include=["documents", "metadatas"]
     )
@@ -96,21 +120,51 @@ def answer_question(question):
     )
 
     prompt = f"""
-You are an offline engineering-document assistant.
+You are a technical engineering document assistant.
 
-Answer ONLY from the supplied document passages.
-Do not invent facts or citations.
-If the passages do not contain the answer, respond exactly:
-Not found in the documents.
+Your job is to answer questions using ONLY the
+retrieved engineering document passages.
 
-For every factual answer, cite its source using [Source N].
-Be concise and accurate.
+RULES:
+
+1. Read all retrieved passages carefully.
+
+2. Answer using information explicitly stated
+   in the passages.
+
+3. Engineering commands may be written in
+   different formats.
+
+   Example:
+   "AT+RDMETER" followed by "UL"
+   represents "AT+RDMETER=UL".
+
+4. Treat equivalent technical expressions as
+   matching when the document clearly supports
+   the equivalence.
+
+5. If the answer is present, give a short,
+   technically accurate explanation.
+
+6. Cite the supporting source using [Source N].
+
+7. If the answer is genuinely absent from
+   ALL supplied passages, respond exactly:
+
+   Not found in the documents.
+
+8. Never invent technical specifications,
+   commands, values or citations.
 
 DOCUMENT PASSAGES:
+
 {context}
 
 QUESTION:
+
 {question}
+
+ANSWER:
 """
 
     response = chat(
@@ -122,10 +176,22 @@ QUESTION:
     print("\nANSWER:\n")
     print(response.message.content)
 
+
     print("\nRETRIEVED SOURCES:")
+
     for i, item in enumerate(results, start=1):
         meta = item["meta"]
-        print(f"[Source {i}] {meta['filename']}, p.{meta['page']}")
+
+        print(
+            f"\n[Source {i}] "
+            f"{meta['filename']}, "
+            f"p.{meta['page']}"
+        )
+
+        print("PASSAGE:")
+        print(item["text"][:1000])
+        print("-" * 50)
+
 
 
 if __name__ == "__main__":
